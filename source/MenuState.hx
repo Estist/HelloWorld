@@ -134,8 +134,8 @@ class MenuState extends FlxState
 				
 		Register.playersGroup.add(this.player);
 		Register.playersGroup.add(this.player2);
-		Register.playersGroup.add(this.player3);
-		Register.playersGroup.add(this.player4);
+		//Register.playersGroup.add(this.player3);
+		//Register.playersGroup.add(this.player4);
 		//Register.playersGroup.add(this.player.walljumpBox);
 		//Register.playersGroup.add(playerDebug);
 		

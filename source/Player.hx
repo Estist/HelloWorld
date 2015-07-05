@@ -207,7 +207,7 @@ class Player extends FlxNestedSprite
 		this.add(attackBoxDown);
 		this.attackBoxDown.parent = this;
 		
-		this.mainHitbox = new AttackBox(0, 0);
+		/*this.mainHitbox = new AttackBox(0, 0);
 		this.mainHitbox.relativeX = 91;
 		this.mainHitbox.relativeY = 77;
 		this.mainHitbox.width = 40;
@@ -216,7 +216,7 @@ class Player extends FlxNestedSprite
 		this.mainHitbox.solid = true;
 		this.mainHitbox.makeGraphic( cast(this.mainHitbox.width,Int), cast(this.mainHitbox.height,Int));
 		//this.add(mainHitbox);
-		this.mainHitbox.parent = this;
+		this.mainHitbox.parent = this;*/
 		
 		setFacingFlip(FlxObject.RIGHT, false, false);
 		setFacingFlip(FlxObject.LEFT, true, false);
@@ -347,7 +347,7 @@ class Player extends FlxNestedSprite
 			return;
 		}
 			
-		FlxG.timeScale = 1;
+		//FlxG.timeScale = 1;
 			
 		//this.checkAnimationStates();
 		
@@ -1115,7 +1115,7 @@ class Player extends FlxNestedSprite
 		this.attackBoxRight.solid = false;
 		this.attackBoxLeft.solid = false;
 		
-		FlxG.camera.shake(0.005, 0.1);
+		//FlxG.camera.shake(0.005, 0.1);
 		FlxG.camera.flash(0xFFFFFF, 0.1);
 		
 		/*if(FlxG.timeScale == 1)
@@ -1125,6 +1125,10 @@ class Player extends FlxNestedSprite
 		//FlxG.sound.play("assets/sounds/Socapex - Monster_Hurt.mp3");
 		FlxG.sound.play("hurt");
 		
+		FlxG.timeScale = 0.01;
+		
+		new FlxTimer(0.0001, resetTimeScale);
+		
 		this.isAttacking = false;
 		this.isClashing = false;
 		
@@ -1133,6 +1137,11 @@ class Player extends FlxNestedSprite
 		this.livesLeft --;
 		
 		this.menu.checkVictoy();
+	}
+	
+	public function resetTimeScale(timer:FlxTimer):Void
+	{
+		FlxG.timeScale = 1;
 	}
 		
 }
