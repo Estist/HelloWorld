@@ -17,7 +17,10 @@ import lime.Assets;
 import sys.FileSystem;
 #end
 
-#if flash
+#if (js && html5)
+import lime.net.URLLoader;
+import lime.net.URLRequest;
+#elseif flash
 import flash.display.Bitmap;
 import flash.display.BitmapData;
 import flash.display.Loader;
@@ -5955,7 +5958,15 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#elseif html5
 		
 		var bytes:ByteArray = null;
-		var data = Preloader.loaders.get (path.get (id)).data;
+		var loader = Preloader.loaders.get (path.get (id));
+
+		if (loader == null) {
+
+			return null;
+
+		}
+
+		var data = loader.data;
 		
 		if (Std.is (data, String)) {
 			
@@ -6102,7 +6113,15 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if html5
 		
 		var bytes:ByteArray = null;
-		var data = Preloader.loaders.get (path.get (id)).data;
+		var loader = Preloader.loaders.get (path.get (id));
+
+		if (loader == null) {
+
+			return null;
+			
+		}
+
+		var data = loader.data;
 		
 		if (Std.is (data, String)) {
 			
@@ -6236,6 +6255,25 @@ class DefaultAssetLibrary extends AssetLibrary {
 			handler (getBytes (id));
 			
 		}
+
+		#elseif html5
+
+		if (path.exists (id)) {
+
+			var loader = new URLLoader ();
+			loader.dataFormat = BINARY;
+			loader.onComplete.add (function (_):Void {
+
+				handler(loader.data);
+
+			});
+			loader.load (new URLRequest (path.get (id)));
+				
+		} else {
+
+			handler (getBytes (id));
+
+		}
 		
 		#else
 		
@@ -6267,6 +6305,24 @@ class DefaultAssetLibrary extends AssetLibrary {
 			
 		}
 		
+		#elseif html5
+
+		if (path.exists (id)) {
+
+			var image = new js.html.Image ();
+			image.onload = function (_):Void {
+
+				handler (Image.fromImageElement (image));
+
+			}
+			image.src = id;
+
+		} else {
+
+			handler (getImage (id));
+
+		}
+
 		#else
 		
 		handler (getImage (id));
@@ -6373,15 +6429,15 @@ class DefaultAssetLibrary extends AssetLibrary {
 	
 	public override function loadText (id:String, handler:String -> Void):Void {
 		
-		//#if html5
+		#if html5
 		
-		/*if (path.exists (id)) {
+		if (path.exists (id)) {
 			
 			var loader = new URLLoader ();
-			loader.addEventListener (Event.COMPLETE, function (event:Event) {
-				
-				handler (event.currentTarget.data);
-				
+			loader.onComplete.add (function (_):Void {
+
+				handler(loader.data);
+
 			});
 			loader.load (new URLRequest (path.get (id)));
 			
@@ -6389,9 +6445,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 			
 			handler (getText (id));
 			
-		}*/
+		}
 		
-		//#else
+		#else
 		
 		var callback = function (bytes:ByteArray):Void {
 			
@@ -6409,7 +6465,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		loadBytes (id, callback);
 		
-		//#end
+		#end
 		
 	}
 	

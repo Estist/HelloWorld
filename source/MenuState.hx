@@ -60,7 +60,7 @@ class MenuState extends FlxState
 	
 	public var cameraInviObject:FlxSprite;
 	
-	public var spawnPoints: Array<FlxPoint> = [new FlxPoint(300, 300), new FlxPoint(1000, 300)];
+	public var spawnPoints: Array<FlxPoint> = [new FlxPoint(300, 300), new FlxPoint(1000, 300), new FlxPoint(1000, 700), new FlxPoint(600, 500)];
 	public var lifesTextPositions: Array<FlxPoint> = [new FlxPoint(50, 50), new FlxPoint(1800, 50) , new FlxPoint(50, 800), new FlxPoint(1800, 800)];
 	
 	public var livesCounterText1:FlxText;
@@ -110,6 +110,10 @@ class MenuState extends FlxState
 		//this.player.gamepadIntIdDebug = 0;
 
 		this.player2 = new Player(cast(spawnPoints[1].x,Int), cast(spawnPoints[1].y, Int), this,1);
+		
+		this.player3 = new Player(cast(spawnPoints[2].x,Int), cast(spawnPoints[2].y, Int), this,2);
+		
+		this.player4 = new Player(cast(spawnPoints[3].x,Int), cast(spawnPoints[3].y, Int), this,3);
 		//this.player2.gamepadIntIdDebug = 1;
 		
 		//var bombDebug:Bomb = new Bomb();
@@ -130,6 +134,8 @@ class MenuState extends FlxState
 				
 		Register.playersGroup.add(this.player);
 		Register.playersGroup.add(this.player2);
+		Register.playersGroup.add(this.player3);
+		Register.playersGroup.add(this.player4);
 		//Register.playersGroup.add(this.player.walljumpBox);
 		//Register.playersGroup.add(playerDebug);
 		
@@ -178,6 +184,16 @@ class MenuState extends FlxState
 		Register.logicGroup.add(this.player2.attackBoxLeft);
 		Register.logicGroup.add(this.player2.attackBoxUp);
 		Register.logicGroup.add(this.player2.attackBoxDown);
+		
+		Register.logicGroup.add(this.player3.attackBoxRight);
+		Register.logicGroup.add(this.player3.attackBoxLeft);
+		Register.logicGroup.add(this.player3.attackBoxUp);
+		Register.logicGroup.add(this.player3.attackBoxDown);
+		
+		Register.logicGroup.add(this.player4.attackBoxRight);
+		Register.logicGroup.add(this.player4.attackBoxLeft);
+		Register.logicGroup.add(this.player4.attackBoxUp);
+		Register.logicGroup.add(this.player4.attackBoxDown);
 		
 		/*Register.logicGroup.add(playerDebug.attackBoxRight);
 		Register.logicGroup.add(playerDebug.attackBoxLeft);
