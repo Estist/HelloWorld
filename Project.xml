@@ -89,6 +89,7 @@
 		<sound path="slash.ogg" id="slash" />
 		<sound path="hurt.ogg" id="hurt" />
 		<sound path="explode.ogg" id="explode" />
+		<sound path="electrify.ogg" id="electrify" />
 	</assets>
 	
 	<assets path="assets/sounds" if="flash">

@@ -89,8 +89,7 @@ class Bomb extends FlxNestedSprite
 		this.exploding = true;
 		this.exploded = true;
 		
-		FlxG.sound.play("explode",0.6);
-
+		FlxG.sound.play("explode",0.4);
 		
 		for (i in Register.playersGroup)
 		{
@@ -112,6 +111,11 @@ class Bomb extends FlxNestedSprite
 		this.explode();
 	}
 	
+	public function playFlicker(Timer:FlxTimer):Void
+	{
+		this.animation.play("activated");	
+	}
+	
 	public function pickUp(parent:Player):Void
 	{
 		this.pickedUp = true;
@@ -125,11 +129,11 @@ class Bomb extends FlxNestedSprite
 		this.pickedUp = false;
 		
 		new FlxTimer(1, explodeWithTimer, 1);
-		this.animation.play("activated");	
+		new FlxTimer(0.5, playFlicker, 1);
+		//this.animation.play("activated");	
 		this.elasticity = 0.5;
 		this.touchs = 0;
 		this.acceleration.y = 1000;
-
 	}
 	
 	public function teleportIfOutOfBounds():Void

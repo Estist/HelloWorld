@@ -407,6 +407,9 @@ class Player extends FlxNestedSprite
 	
 	private function checkAnimationStates():Void
 	{
+		if (this.animation == null)
+			return;
+		
 		if (this.animation.curAnim != null && this.animation.curAnim.name == "attack" && this.animation.curAnim.curFrame == this.animation.curAnim.numFrames - 1)
 		{
 			this.isAttacking = false;
@@ -1116,7 +1119,7 @@ class Player extends FlxNestedSprite
 		this.attackBoxLeft.solid = false;
 		
 		//FlxG.camera.shake(0.005, 0.1);
-		FlxG.camera.flash(0xFFFFFF, 0.1);
+		//FlxG.camera.flash(0xFFFFFF, 0.1);
 		
 		/*if(FlxG.timeScale == 1)
 			FlxG.timeScale = 0.2;*/
@@ -1127,7 +1130,7 @@ class Player extends FlxNestedSprite
 		
 		FlxG.timeScale = 0.01;
 		
-		new FlxTimer(0.0001, resetTimeScale);
+		new FlxTimer(0.001, resetTimeScale);
 		
 		this.isAttacking = false;
 		this.isClashing = false;

@@ -1162,6 +1162,104 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/sprites/pUps/explosion_0035.png", AssetType.IMAGE);
 		className.set ("assets/images/sprites/pUps/explosion_0036.png", __ASSET__assets_images_sprites_pups_explosion_0036_png);
 		type.set ("assets/images/sprites/pUps/explosion_0036.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0001.png", __ASSET__assets_images_sprites_pups_magnet_main_0001_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0001.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0002.png", __ASSET__assets_images_sprites_pups_magnet_main_0002_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0002.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0003.png", __ASSET__assets_images_sprites_pups_magnet_main_0003_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0003.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0004.png", __ASSET__assets_images_sprites_pups_magnet_main_0004_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0004.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0005.png", __ASSET__assets_images_sprites_pups_magnet_main_0005_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0005.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0006.png", __ASSET__assets_images_sprites_pups_magnet_main_0006_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0006.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0007.png", __ASSET__assets_images_sprites_pups_magnet_main_0007_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0007.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0008.png", __ASSET__assets_images_sprites_pups_magnet_main_0008_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0008.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0009.png", __ASSET__assets_images_sprites_pups_magnet_main_0009_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0009.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0010.png", __ASSET__assets_images_sprites_pups_magnet_main_0010_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0010.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0011.png", __ASSET__assets_images_sprites_pups_magnet_main_0011_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0011.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0012.png", __ASSET__assets_images_sprites_pups_magnet_main_0012_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0012.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0013.png", __ASSET__assets_images_sprites_pups_magnet_main_0013_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0013.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0014.png", __ASSET__assets_images_sprites_pups_magnet_main_0014_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0014.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0015.png", __ASSET__assets_images_sprites_pups_magnet_main_0015_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0015.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0016.png", __ASSET__assets_images_sprites_pups_magnet_main_0016_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0016.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0017.png", __ASSET__assets_images_sprites_pups_magnet_main_0017_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0017.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0018.png", __ASSET__assets_images_sprites_pups_magnet_main_0018_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0018.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0019.png", __ASSET__assets_images_sprites_pups_magnet_main_0019_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0019.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0020.png", __ASSET__assets_images_sprites_pups_magnet_main_0020_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0020.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0021.png", __ASSET__assets_images_sprites_pups_magnet_main_0021_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0021.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0022.png", __ASSET__assets_images_sprites_pups_magnet_main_0022_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0022.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0023.png", __ASSET__assets_images_sprites_pups_magnet_main_0023_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0023.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0024.png", __ASSET__assets_images_sprites_pups_magnet_main_0024_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0024.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0025.png", __ASSET__assets_images_sprites_pups_magnet_main_0025_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0025.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0026.png", __ASSET__assets_images_sprites_pups_magnet_main_0026_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0026.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0027.png", __ASSET__assets_images_sprites_pups_magnet_main_0027_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0027.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0028.png", __ASSET__assets_images_sprites_pups_magnet_main_0028_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0028.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0029.png", __ASSET__assets_images_sprites_pups_magnet_main_0029_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0029.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0030.png", __ASSET__assets_images_sprites_pups_magnet_main_0030_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0030.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0031.png", __ASSET__assets_images_sprites_pups_magnet_main_0031_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0031.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0032.png", __ASSET__assets_images_sprites_pups_magnet_main_0032_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0032.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0033.png", __ASSET__assets_images_sprites_pups_magnet_main_0033_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0033.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0034.png", __ASSET__assets_images_sprites_pups_magnet_main_0034_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0034.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0035.png", __ASSET__assets_images_sprites_pups_magnet_main_0035_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0035.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0036.png", __ASSET__assets_images_sprites_pups_magnet_main_0036_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0036.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0037.png", __ASSET__assets_images_sprites_pups_magnet_main_0037_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0037.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0038.png", __ASSET__assets_images_sprites_pups_magnet_main_0038_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0038.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0039.png", __ASSET__assets_images_sprites_pups_magnet_main_0039_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0039.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0040.png", __ASSET__assets_images_sprites_pups_magnet_main_0040_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0040.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0041.png", __ASSET__assets_images_sprites_pups_magnet_main_0041_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0041.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0042.png", __ASSET__assets_images_sprites_pups_magnet_main_0042_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0042.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0043.png", __ASSET__assets_images_sprites_pups_magnet_main_0043_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0043.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0044.png", __ASSET__assets_images_sprites_pups_magnet_main_0044_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0044.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0045.png", __ASSET__assets_images_sprites_pups_magnet_main_0045_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0045.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0046.png", __ASSET__assets_images_sprites_pups_magnet_main_0046_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0046.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0047.png", __ASSET__assets_images_sprites_pups_magnet_main_0047_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0047.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_main_0048.png", __ASSET__assets_images_sprites_pups_magnet_main_0048_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0048.png", AssetType.IMAGE);
+		className.set ("assets/images/sprites/pUps/magnet_solo.png", __ASSET__assets_images_sprites_pups_magnet_solo_png);
+		type.set ("assets/images/sprites/pUps/magnet_solo.png", AssetType.IMAGE);
 		className.set ("assets/images/spritesheetTp.png", __ASSET__assets_images_spritesheettp_png);
 		type.set ("assets/images/spritesheetTp.png", AssetType.IMAGE);
 		className.set ("assets/images/tile01.png", __ASSET__assets_images_tile01_png);
@@ -3431,6 +3529,202 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0001.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0002.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0003.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0004.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0005.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0006.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0007.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0008.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0009.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0010.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0011.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0012.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0013.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0014.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0015.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0016.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0017.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0018.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0019.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0020.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0021.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0022.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0023.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0024.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0025.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0026.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0027.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0028.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0029.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0030.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0031.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0032.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0033.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0034.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0035.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0036.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0037.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0038.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0039.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0040.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0041.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0042.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0043.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0044.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0045.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0046.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0047.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0048.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_solo.png";
+		path.set (id, id);
+		
+		type.set (id, AssetType.IMAGE);
 		id = "assets/images/spritesheetTp.png";
 		path.set (id, id);
 		
@@ -3515,6 +3809,55 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#else
 		
 		#if openfl
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
@@ -5769,6 +6112,153 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/images/sprites/pUps/explosion_0036.png", __ASSET__assets_images_sprites_pups_explosion_0036_png);
 		type.set ("assets/images/sprites/pUps/explosion_0036.png", AssetType.IMAGE);
 		
+		className.set ("assets/images/sprites/pUps/magnet_main_0001.png", __ASSET__assets_images_sprites_pups_magnet_main_0001_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0001.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0002.png", __ASSET__assets_images_sprites_pups_magnet_main_0002_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0002.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0003.png", __ASSET__assets_images_sprites_pups_magnet_main_0003_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0003.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0004.png", __ASSET__assets_images_sprites_pups_magnet_main_0004_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0004.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0005.png", __ASSET__assets_images_sprites_pups_magnet_main_0005_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0005.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0006.png", __ASSET__assets_images_sprites_pups_magnet_main_0006_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0006.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0007.png", __ASSET__assets_images_sprites_pups_magnet_main_0007_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0007.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0008.png", __ASSET__assets_images_sprites_pups_magnet_main_0008_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0008.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0009.png", __ASSET__assets_images_sprites_pups_magnet_main_0009_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0009.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0010.png", __ASSET__assets_images_sprites_pups_magnet_main_0010_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0010.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0011.png", __ASSET__assets_images_sprites_pups_magnet_main_0011_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0011.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0012.png", __ASSET__assets_images_sprites_pups_magnet_main_0012_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0012.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0013.png", __ASSET__assets_images_sprites_pups_magnet_main_0013_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0013.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0014.png", __ASSET__assets_images_sprites_pups_magnet_main_0014_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0014.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0015.png", __ASSET__assets_images_sprites_pups_magnet_main_0015_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0015.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0016.png", __ASSET__assets_images_sprites_pups_magnet_main_0016_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0016.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0017.png", __ASSET__assets_images_sprites_pups_magnet_main_0017_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0017.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0018.png", __ASSET__assets_images_sprites_pups_magnet_main_0018_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0018.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0019.png", __ASSET__assets_images_sprites_pups_magnet_main_0019_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0019.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0020.png", __ASSET__assets_images_sprites_pups_magnet_main_0020_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0020.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0021.png", __ASSET__assets_images_sprites_pups_magnet_main_0021_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0021.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0022.png", __ASSET__assets_images_sprites_pups_magnet_main_0022_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0022.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0023.png", __ASSET__assets_images_sprites_pups_magnet_main_0023_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0023.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0024.png", __ASSET__assets_images_sprites_pups_magnet_main_0024_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0024.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0025.png", __ASSET__assets_images_sprites_pups_magnet_main_0025_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0025.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0026.png", __ASSET__assets_images_sprites_pups_magnet_main_0026_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0026.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0027.png", __ASSET__assets_images_sprites_pups_magnet_main_0027_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0027.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0028.png", __ASSET__assets_images_sprites_pups_magnet_main_0028_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0028.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0029.png", __ASSET__assets_images_sprites_pups_magnet_main_0029_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0029.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0030.png", __ASSET__assets_images_sprites_pups_magnet_main_0030_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0030.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0031.png", __ASSET__assets_images_sprites_pups_magnet_main_0031_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0031.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0032.png", __ASSET__assets_images_sprites_pups_magnet_main_0032_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0032.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0033.png", __ASSET__assets_images_sprites_pups_magnet_main_0033_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0033.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0034.png", __ASSET__assets_images_sprites_pups_magnet_main_0034_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0034.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0035.png", __ASSET__assets_images_sprites_pups_magnet_main_0035_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0035.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0036.png", __ASSET__assets_images_sprites_pups_magnet_main_0036_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0036.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0037.png", __ASSET__assets_images_sprites_pups_magnet_main_0037_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0037.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0038.png", __ASSET__assets_images_sprites_pups_magnet_main_0038_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0038.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0039.png", __ASSET__assets_images_sprites_pups_magnet_main_0039_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0039.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0040.png", __ASSET__assets_images_sprites_pups_magnet_main_0040_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0040.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0041.png", __ASSET__assets_images_sprites_pups_magnet_main_0041_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0041.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0042.png", __ASSET__assets_images_sprites_pups_magnet_main_0042_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0042.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0043.png", __ASSET__assets_images_sprites_pups_magnet_main_0043_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0043.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0044.png", __ASSET__assets_images_sprites_pups_magnet_main_0044_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0044.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0045.png", __ASSET__assets_images_sprites_pups_magnet_main_0045_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0045.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0046.png", __ASSET__assets_images_sprites_pups_magnet_main_0046_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0046.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0047.png", __ASSET__assets_images_sprites_pups_magnet_main_0047_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0047.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_main_0048.png", __ASSET__assets_images_sprites_pups_magnet_main_0048_png);
+		type.set ("assets/images/sprites/pUps/magnet_main_0048.png", AssetType.IMAGE);
+		
+		className.set ("assets/images/sprites/pUps/magnet_solo.png", __ASSET__assets_images_sprites_pups_magnet_solo_png);
+		type.set ("assets/images/sprites/pUps/magnet_solo.png", AssetType.IMAGE);
+		
 		className.set ("assets/images/spritesheetTp.png", __ASSET__assets_images_spritesheettp_png);
 		type.set ("assets/images/spritesheetTp.png", AssetType.IMAGE);
 		
@@ -7033,6 +7523,55 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_explosion_0034_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_explosion_0035_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_explosion_0036_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0001_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0002_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0003_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0004_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0005_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0006_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0007_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0008_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0009_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0010_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0011_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0012_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0013_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0014_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0015_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0016_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0017_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0018_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0019_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0020_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0021_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0022_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0023_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0024_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0025_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0026_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0027_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0028_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0029_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0030_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0031_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0032_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0033_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0034_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0035_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0036_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0037_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0038_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0039_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0040_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0041_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0042_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0043_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0044_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0045_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0046_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0047_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0048_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_sprites_pups_magnet_solo_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_spritesheettp_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_tile01_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_towerfall_test2_002_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -7054,6 +7593,55 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 #elseif html5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8196,6 +8784,55 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("assets/images/sprites/pUps/explosion_0034.png") #if display private #end class __ASSET__assets_images_sprites_pups_explosion_0034_png extends lime.graphics.Image {}
 @:image("assets/images/sprites/pUps/explosion_0035.png") #if display private #end class __ASSET__assets_images_sprites_pups_explosion_0035_png extends lime.graphics.Image {}
 @:image("assets/images/sprites/pUps/explosion_0036.png") #if display private #end class __ASSET__assets_images_sprites_pups_explosion_0036_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0001.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0001_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0002.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0002_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0003.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0003_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0004.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0004_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0005.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0005_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0006.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0006_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0007.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0007_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0008.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0008_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0009.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0009_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0010.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0010_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0011.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0011_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0012.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0012_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0013.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0013_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0014.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0014_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0015.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0015_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0016.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0016_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0017.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0017_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0018.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0018_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0019.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0019_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0020.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0020_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0021.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0021_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0022.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0022_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0023.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0023_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0024.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0024_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0025.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0025_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0026.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0026_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0027.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0027_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0028.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0028_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0029.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0029_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0030.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0030_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0031.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0031_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0032.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0032_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0033.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0033_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0034.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0034_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0035.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0035_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0036.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0036_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0037.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0037_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0038.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0038_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0039.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0039_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0040.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0040_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0041.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0041_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0042.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0042_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0043.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0043_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0044.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0044_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0045.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0045_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0046.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0046_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0047.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0047_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_main_0048.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_main_0048_png extends lime.graphics.Image {}
+@:image("assets/images/sprites/pUps/magnet_solo.png") #if display private #end class __ASSET__assets_images_sprites_pups_magnet_solo_png extends lime.graphics.Image {}
 @:image("assets/images/spritesheetTp.png") #if display private #end class __ASSET__assets_images_spritesheettp_png extends lime.graphics.Image {}
 @:image("assets/images/tile01.png") #if display private #end class __ASSET__assets_images_tile01_png extends lime.graphics.Image {}
 @:image("assets/images/towerfall_test2_002.png") #if display private #end class __ASSET__assets_images_towerfall_test2_002_png extends lime.graphics.Image {}

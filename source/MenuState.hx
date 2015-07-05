@@ -123,6 +123,11 @@ class MenuState extends FlxState
 		var crateDebug:Crate = new Crate();
 		crateDebug.init(500, 300);
 		Register.objectsGroup.add(crateDebug);
+		
+		var magnet:Magnet = new Magnet();
+		var pos:FlxPoint = new FlxPoint(500, 170);
+		magnet.init(pos);
+		Register.objectsGroup.add(magnet);
 			
 		//this.player.animation.play("run", true);
 		//this.player2.color = 0xff999999;
@@ -371,6 +376,15 @@ class MenuState extends FlxState
 		if (FlxG.keys.justPressed.R)
 		{
 			FlxG.resetState();
+		}
+		
+		if (FlxG.keys.justPressed.M)
+		{
+			var magnet:Magnet = new Magnet();
+			//var pos:FlxPoint = new FlxPoint(500, 170);
+			var pos:FlxPoint = new FlxPoint (Utils.findMidPointForObject(magnet,this.player).x ,Utils.findMidPointForObject(magnet,this.player).y - 200);
+			magnet.init(pos);
+			Register.objectsGroup.add(magnet);
 		}
 		
 		var playerCenter:FlxPoint = this.findPlayersCenter();
