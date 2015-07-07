@@ -124,10 +124,10 @@ class MenuState extends FlxState
 		crateDebug.init(500, 300);
 		Register.objectsGroup.add(crateDebug);
 		
-		var magnet:Magnet = new Magnet();
+		/*var magnet:Magnet = new Magnet();
 		var pos:FlxPoint = new FlxPoint(500, 170);
 		magnet.init(pos);
-		Register.objectsGroup.add(magnet);
+		Register.objectsGroup.add(magnet);*/
 			
 		//this.player.animation.play("run", true);
 		//this.player2.color = 0xff999999;
@@ -221,7 +221,7 @@ class MenuState extends FlxState
 		
 		//this.sapwnBombTimer = new FlxTimer(10, spawnRandomBomb, 0);
 		this.sapwnBombTimer = new FlxTimer(10, spawnRandomCrate, 0);
-		
+		FlxG.sound.playMusic("background", 0.3, true);
 		super.create();
 	}
 	
@@ -486,10 +486,9 @@ class MenuState extends FlxState
 	
 	private function pickItemsFunction(item:FlxSprite ,player:Player):Void
 	{
-		
-		if(Type.getClass(item) == Bomb)
+		if(Type.getClass(item) == MagnetPowerUp)
 		{
-			var itemTemp:Bomb = cast(item, Bomb);
+			var itemTemp:Item = cast(item, Item);
 			
 			if (!itemTemp.pickedUp && itemTemp.canBePicked && player.itemSlot == null)
 			{
@@ -547,9 +546,23 @@ class MenuState extends FlxState
 		}
 	}
 	
-	private function attackBombFunction(box:AttackBox, bomb:Bomb)
+	private function attackBombFunction(box:AttackBox, bomb:Item)
 	{
-		//bomb.explode();
+		if (Type.getClass(bomb) != Bomb)
+			return;
+		
+		var bombCasted:Bomb = cast(bomb, Bomb);	
+			
+		if (bombCasted.alive && !bombCasted.exploding)
+		{
+			var deathImpulse:FlxPoint = new FlxPoint((bombCasted.getMidpoint().x - box.parent.getMidpoint().x), (bombCasted.getMidpoint().y - box.parent.getMidpoint().y));	
+		
+			bombCasted.velocity.y = deathImpulse.y * 5;
+			bombCasted.velocity.y = deathImpulse.y * 5;
+			//bomb.velocity.x = FlxMath.signOf( deathImpulse.x) * 100;
+			//bomb.velocity.x = FlxMath.signOf( deathImpulse.y) * 1;
+			bombCasted.playFlicker(new FlxTimer());
+		}
 	}
 	
 	private function ClashSwords(box:AttackBox ,player:Player)

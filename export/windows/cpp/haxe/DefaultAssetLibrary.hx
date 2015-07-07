@@ -1269,6 +1269,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/towerfall_test2_002.png", AssetType.IMAGE);
 		path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
 		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
+		path.set ("assets/sounds/backloop.ogg", "assets/sounds/backloop.ogg");
+		type.set ("assets/sounds/backloop.ogg", AssetType.MUSIC);
 		path.set ("assets/sounds/clash.mp3", "assets/sounds/clash.mp3");
 		type.set ("assets/sounds/clash.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/clash.ogg", "assets/sounds/clash.ogg");
@@ -1283,16 +1285,26 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/sounds/hurt.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/hurt.ogg", "assets/sounds/hurt.ogg");
 		type.set ("assets/sounds/hurt.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/jump.ogg", "assets/sounds/jump.ogg");
+		type.set ("assets/sounds/jump.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/magnet_appear.ogg", "assets/sounds/magnet_appear.ogg");
+		type.set ("assets/sounds/magnet_appear.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/slash.mp3", "assets/sounds/slash.mp3");
 		type.set ("assets/sounds/slash.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/slash.ogg", "assets/sounds/slash.ogg");
 		type.set ("assets/sounds/slash.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
 		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
+		path.set ("assets/sounds/touch_ground.ogg", "assets/sounds/touch_ground.ogg");
+		type.set ("assets/sounds/touch_ground.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/beep.ogg", "assets/sounds/beep.ogg");
 		type.set ("assets/sounds/beep.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/flixel.ogg", "assets/sounds/flixel.ogg");
 		type.set ("assets/sounds/flixel.ogg", AssetType.SOUND);
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		path.set ("clash", "assets/sounds/clash.ogg");
 		type.set ("clash", AssetType.SOUND);
 		path.set ("slash", "assets/sounds/slash.ogg");
@@ -1303,6 +1315,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("explode", AssetType.SOUND);
 		path.set ("electrify", "assets/sounds/electrify.ogg");
 		type.set ("electrify", AssetType.SOUND);
+		path.set ("background", "assets/sounds/backloop.ogg");
+		type.set ("background", AssetType.SOUND);
+		path.set ("magnet_appear", "assets/sounds/magnet_appear.ogg");
+		type.set ("magnet_appear", AssetType.SOUND);
+		path.set ("touch_ground", "assets/sounds/touch_ground.ogg");
+		type.set ("touch_ground", AssetType.SOUND);
+		path.set ("jump", "assets/sounds/jump.ogg");
+		type.set ("jump", AssetType.SOUND);
 		
 		
 		#elseif html5
@@ -3138,6 +3158,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/music/music-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/backloop.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/clash.mp3";
 		path.set (id, id);
 		type.set (id, AssetType.MUSIC);
@@ -3159,6 +3182,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/sounds/hurt.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/jump.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/magnet_appear.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/slash.mp3";
 		path.set (id, id);
 		type.set (id, AssetType.MUSIC);
@@ -3168,12 +3197,23 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/sounds/sounds-go-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/touch_ground.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/beep.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/flixel.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
+		id = "assets/fonts/nokiafc22.ttf";
+		className.set (id, __ASSET__assets_fonts_nokiafc22_ttf);
+		
+		type.set (id, AssetType.FONT);
+		id = "assets/fonts/arial.ttf";
+		className.set (id, __ASSET__assets_fonts_arial_ttf);
+		
+		type.set (id, AssetType.FONT);
 		id = "clash";
 		path.set (id, "assets/sounds/clash.ogg");
 		type.set (id, AssetType.SOUND);
@@ -3188,6 +3228,18 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set (id, AssetType.SOUND);
 		id = "electrify";
 		path.set (id, "assets/sounds/electrify.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "background";
+		path.set (id, "assets/sounds/backloop.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "magnet_appear";
+		path.set (id, "assets/sounds/magnet_appear.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "touch_ground";
+		path.set (id, "assets/sounds/touch_ground.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "jump";
+		path.set (id, "assets/sounds/jump.ogg");
 		type.set (id, AssetType.SOUND);
 		
 		
@@ -3820,6 +3872,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		Font.registerFont (__ASSET__assets_fonts_nokiafc22_ttf);
+		Font.registerFont (__ASSET__assets_fonts_arial_ttf);
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
@@ -4444,6 +4506,20 @@ class DefaultAssetLibrary extends AssetLibrary {
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -5696,6 +5772,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends null { }
+@:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends null { }
+
+
+
+
+
+
+
+
 
 
 
@@ -6327,6 +6413,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends flash.text.Font { #if (!openfl_html5_dom) public function new () { super (); fontName = "Nokia Cellphone FC Small"; } #end }
+@:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends flash.text.Font { #if (!openfl_html5_dom) public function new () { super (); fontName = "Arial"; } #end }
+
+
+
+
+
+
+
+
 
 
 
@@ -6335,6 +6431,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if (windows || mac || linux)
 
 
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/nokiafc22.ttf") @:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends flash.text.Font {}
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/arial.ttf") @:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends flash.text.Font {}
 
 
 
@@ -6343,6 +6441,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 #else
 
 
+class __ASSET__assets_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "assets/fonts/nokiafc22.ttf"; fontName = "Nokia Cellphone FC Small";  }}
+class __ASSET__assets_fonts_arial_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "assets/fonts/arial.ttf"; fontName = "Arial";  }}
 
 
 #end
@@ -7620,6 +7720,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/towerfall_test2_002.png", AssetType.IMAGE);
 		path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
 		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
+		path.set ("assets/sounds/backloop.ogg", "assets/sounds/backloop.ogg");
+		type.set ("assets/sounds/backloop.ogg", AssetType.MUSIC);
 		path.set ("assets/sounds/clash.mp3", "assets/sounds/clash.mp3");
 		type.set ("assets/sounds/clash.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/clash.ogg", "assets/sounds/clash.ogg");
@@ -7634,16 +7736,26 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/sounds/hurt.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/hurt.ogg", "assets/sounds/hurt.ogg");
 		type.set ("assets/sounds/hurt.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/jump.ogg", "assets/sounds/jump.ogg");
+		type.set ("assets/sounds/jump.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/magnet_appear.ogg", "assets/sounds/magnet_appear.ogg");
+		type.set ("assets/sounds/magnet_appear.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/slash.mp3", "assets/sounds/slash.mp3");
 		type.set ("assets/sounds/slash.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/slash.ogg", "assets/sounds/slash.ogg");
 		type.set ("assets/sounds/slash.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
 		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
+		path.set ("assets/sounds/touch_ground.ogg", "assets/sounds/touch_ground.ogg");
+		type.set ("assets/sounds/touch_ground.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/beep.ogg", "assets/sounds/beep.ogg");
 		type.set ("assets/sounds/beep.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/flixel.ogg", "assets/sounds/flixel.ogg");
 		type.set ("assets/sounds/flixel.ogg", AssetType.SOUND);
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		path.set ("clash", "assets/sounds/clash.ogg");
 		type.set ("clash", AssetType.SOUND);
 		path.set ("slash", "assets/sounds/slash.ogg");
@@ -7654,6 +7766,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("explode", AssetType.SOUND);
 		path.set ("electrify", "assets/sounds/electrify.ogg");
 		type.set ("electrify", AssetType.SOUND);
+		path.set ("background", "assets/sounds/backloop.ogg");
+		type.set ("background", AssetType.SOUND);
+		path.set ("magnet_appear", "assets/sounds/magnet_appear.ogg");
+		type.set ("magnet_appear", AssetType.SOUND);
+		path.set ("touch_ground", "assets/sounds/touch_ground.ogg");
+		type.set ("touch_ground", AssetType.SOUND);
+		path.set ("jump", "assets/sounds/jump.ogg");
+		type.set ("jump", AssetType.SOUND);
 		
 		
 		#elseif html5
@@ -9489,6 +9609,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/music/music-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/backloop.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/clash.mp3";
 		path.set (id, id);
 		type.set (id, AssetType.MUSIC);
@@ -9510,6 +9633,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/sounds/hurt.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/jump.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/magnet_appear.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/slash.mp3";
 		path.set (id, id);
 		type.set (id, AssetType.MUSIC);
@@ -9519,12 +9648,23 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/sounds/sounds-go-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/touch_ground.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/beep.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/flixel.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
+		id = "assets/fonts/nokiafc22.ttf";
+		className.set (id, __ASSET__assets_fonts_nokiafc22_ttf);
+		
+		type.set (id, AssetType.FONT);
+		id = "assets/fonts/arial.ttf";
+		className.set (id, __ASSET__assets_fonts_arial_ttf);
+		
+		type.set (id, AssetType.FONT);
 		id = "clash";
 		path.set (id, "assets/sounds/clash.ogg");
 		type.set (id, AssetType.SOUND);
@@ -9539,6 +9679,18 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set (id, AssetType.SOUND);
 		id = "electrify";
 		path.set (id, "assets/sounds/electrify.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "background";
+		path.set (id, "assets/sounds/backloop.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "magnet_appear";
+		path.set (id, "assets/sounds/magnet_appear.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "touch_ground";
+		path.set (id, "assets/sounds/touch_ground.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "jump";
+		path.set (id, "assets/sounds/jump.ogg");
 		type.set (id, AssetType.SOUND);
 		
 		
@@ -10179,6 +10331,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_nokiafc22_ttf);
+		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_arial_ttf);
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		#end
@@ -10804,6 +10966,20 @@ class DefaultAssetLibrary extends AssetLibrary {
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -12040,6 +12216,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep @:bind #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_fonts_arial_ttf extends null { }
+
+
+
+
+
+
+
+
 
 
 
@@ -12671,6 +12857,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends lime.text.Font { public function new () { super (); name = "Nokia Cellphone FC Small"; } } 
+@:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends lime.text.Font { public function new () { super (); name = "Arial"; } } 
+
+
+
+
+
+
+
+
 
 
 
@@ -12681,12 +12877,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if (windows || mac || linux)
 
 
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/nokiafc22.ttf") #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends lime.text.Font {}
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/arial.ttf") #if display private #end class __ASSET__assets_fonts_arial_ttf extends lime.text.Font {}
 
 
 
 #end
 
 #if openfl
+@:keep #if display private #end class __ASSET__OPENFL__assets_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { __fontPath = "assets/fonts/nokiafc22.ttf"; name = "Nokia Cellphone FC Small"; super (); }}
+@:keep #if display private #end class __ASSET__OPENFL__assets_fonts_arial_ttf extends openfl.text.Font { public function new () { __fontPath = "assets/fonts/arial.ttf"; name = "Arial"; super (); }}
 
 #end
 

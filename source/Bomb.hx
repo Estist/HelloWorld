@@ -15,13 +15,9 @@ import flixel.FlxSprite;
  * ...
  * @author Esti
  */
-class Bomb extends FlxNestedSprite
+class Bomb extends Item
 {
-
 	public var exploding:Bool = false;
-	public var pickedUp:Bool = false;
-	public var canBePicked:Bool = true;
-	public var parent:Player;
 	public var dragConstant:Int = 1;
 	public var exploded:Bool = false;
 	public var wasTouchingPreviousFrame:Bool = false;
@@ -70,7 +66,7 @@ class Bomb extends FlxNestedSprite
 		//this.animation.addByPrefix("explode", "swordHit", 30, true);
 	}
 	
-	public function init(x:Float,y:Float):Void
+	override public function init(x:Float,y:Float):Void
 	{
 		super.reset(x, y);
 		this.animation.play("idle");	
@@ -115,16 +111,29 @@ class Bomb extends FlxNestedSprite
 	{
 		this.animation.play("activated");	
 	}
-	
-	public function pickUp(parent:Player):Void
-	{
-		this.pickedUp = true;
-		this.parent = parent;
-	}
-	
-	public function release():Void
+
+	public override function release(player:Player):Void
 	{
 		//this.parent = null;
+		
+		var velocityX:Float;
+		var velocityY:Float;
+		
+		if (player.pressedUp())
+		{
+			this.velocity.y = -800;
+		}
+		else
+		if (player.pressedDown())
+		{
+			this.velocity.y = 600;
+		}
+		else
+		{
+			this.velocity.x = 500 * (player.flipX == true ? -1 : 1);
+			this.velocity.y = -500;	
+		}
+		
 		this.canBePicked = false;
 		this.pickedUp = false;
 		
@@ -134,21 +143,6 @@ class Bomb extends FlxNestedSprite
 		this.elasticity = 0.5;
 		this.touchs = 0;
 		this.acceleration.y = 1000;
-	}
-	
-	public function teleportIfOutOfBounds():Void
-	{
-		if(this.y >= 1001)
-			this.setPosition(this.x, - 1);
-			
-		if (this.y <= -2)
-			this.setPosition(this.x, 1000);
-			
-		if(this.x >= 1766)
-			this.setPosition(150 ,this.y);
-			
-		if (this.x <= 149)
-			this.setPosition(1765 , this.y);
 	}
 	
 	override public function update():Void
@@ -191,9 +185,6 @@ class Bomb extends FlxNestedSprite
 		super.update();
 		
 		acceleration.x = 0;
-		
-		this.teleportIfOutOfBounds();
-		
 		
 		if (pickedUp)
 		{

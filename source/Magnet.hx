@@ -39,9 +39,11 @@ class Magnet extends FlxNestedSprite
 		//this.animation.callback("destroyAfterDissapear", 43, 43);
 		//this.animation.callback("electroCute", 16, 16);
 		
-		this.width = 174;
+		//this.width = 174;
+		this.width = 97;
 		this.height = 144;
 		this.offset.y = -4;
+		this.offset.x = 77/2;
 		
 		//this.antialiasing = true;
 		
@@ -51,6 +53,7 @@ class Magnet extends FlxNestedSprite
 	{
 		super.reset(point.x, point.y);
 		this.animation.play("appear");
+		FlxG.sound.play("magnet_appear",0.8);
 	}
 	
 	public function fall():Void
@@ -75,7 +78,7 @@ class Magnet extends FlxNestedSprite
 	{
 		this.kill();
 	}
-
+	
 	override public function update():Void
 	{
 		if (this.animation == null )

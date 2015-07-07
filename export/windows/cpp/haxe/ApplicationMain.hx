@@ -418,6 +418,14 @@ class ApplicationMain {
 		var types = [];
 		
 		
+		urls.push ("Nokia Cellphone FC Small");
+		types.push (lime.Assets.AssetType.FONT);
+		
+		
+		urls.push ("Arial");
+		types.push (lime.Assets.AssetType.FONT);
+		
+		
 		
 		if (config.assetsPrefix != null) {
 			

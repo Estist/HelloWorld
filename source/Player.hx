@@ -47,7 +47,7 @@ class Player extends FlxNestedSprite
 	public var attackBoxDown:AttackBox;
 	public var attackBoxUp:AttackBox;
 	
-	public var itemSlot:Bomb = null;
+	public var itemSlot:Item = null;
 	
 	//40x50 - 91-77
 	public var mainHitbox:AttackBox;
@@ -242,8 +242,13 @@ class Player extends FlxNestedSprite
 		//trailArea.blend=flash.display.BlendMode.INVERT;
 		//trailArea.add(this);
 		//this.menu.add(trailArea);
+		
+		//this.blend = BlendMode.SCREEN; //tipo ghost
+		//this.blend = BlendMode.MULTIPLY; // se pone del color del fondo
+		//this.blend = BlendMode.ADD; //ghost mas brillando
+		//this.blend = BlendMode.NORMAL; //normal
+
 	}
-	
 	
 	public function addAnimationsWithTp()
 	{
@@ -359,7 +364,7 @@ class Player extends FlxNestedSprite
 				
 		this.checkAttack();
 		
-		//this.checkShoot();
+		this.checkThrowItem();
 										
 		this.checkWallJump();
 				
@@ -369,6 +374,14 @@ class Player extends FlxNestedSprite
 		
 		super.update();	
 	
+	}
+	
+	private function checkThrowItem():Void
+	{
+		if(this.pressedThrowItem())
+		{
+			this.throwItem();
+		}
 	}
 	
 	private function checkShoot():Void
@@ -448,6 +461,11 @@ class Player extends FlxNestedSprite
 				FlxG.log.add("endedAttack!");
 	}*/
 	
+	public function pressedThrowItem():Bool
+	{
+		return FlxG.keys.pressed.C || gamepad.pressed(XboxButtonID.B);
+	}
+	
 	public function pressedShoot():Bool
 	{
 		return FlxG.keys.pressed.Z || gamepad.pressed(XboxButtonID.B);
@@ -518,11 +536,6 @@ class Player extends FlxNestedSprite
 			
 			this.isAttacking = true;
 			FlxG.sound.play("slash", 0.3);
-			
-			if (this.itemSlot != null)
-			{
-				this.throwItem();
-			}
 		}
 		
 		//acceleration at the attack frame
@@ -617,6 +630,8 @@ class Player extends FlxNestedSprite
 				{	
 					velocity.y = -_jumpPower;
 					this.addJumpFx();
+					FlxG.sound.play("jump",0.5);
+
 				}
 
 				if ((FlxG.keys.justReleased.Z || gamepad.justReleased(XboxButtonID.A)) && velocity.y < 0) {
@@ -952,7 +967,8 @@ class Player extends FlxNestedSprite
 			{
 				//if(this.velocity.y >= 200)
 				this.addFallFx();
-				
+				FlxG.sound.play("touch_ground",0.5);
+
 				this.animation.play("jumpFall");
 			}
 			
@@ -1072,32 +1088,17 @@ class Player extends FlxNestedSprite
 		this.creatingRunFx = false;
 	}
 	
-	public function pickupItem(item:Bomb):Void
+	public function pickupItem(item:Item):Void
 	{
 		this.itemSlot = item;
 	}
 	
 	public function throwItem():Void
 	{
-		var velocityX:Float;
-		var velocityY:Float;
-		
-		if (pressedUp())
-		{
-			this.itemSlot.velocity.y = -600;
-		}
-		else
-		if (pressedDown())
-		{
-			this.itemSlot.velocity.y = 600;
-		}
-		else
-		{
-			this.itemSlot.velocity.x = 500 * (this.flipX == true ? -1 : 1);
-			this.itemSlot.velocity.y = -500;	
-		}
-
-		this.itemSlot.release();
+		if (this.itemSlot == null)
+			return;
+			
+		this.itemSlot.release(this);
 		
 		this.itemSlot = null;
 	}	

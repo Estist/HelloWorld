@@ -1236,6 +1236,8 @@ class AssetData {
 			type.set ("assets/images/towerfall_test2_002.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
 			type.set ("assets/music/music-goes-here.txt", Reflect.field (AssetType, "text".toUpperCase ()));
+			path.set ("assets/sounds/backloop.ogg", "assets/sounds/backloop.ogg");
+			type.set ("assets/sounds/backloop.ogg", Reflect.field (AssetType, "music".toUpperCase ()));
 			path.set ("assets/sounds/clash.mp3", "assets/sounds/clash.mp3");
 			type.set ("assets/sounds/clash.mp3", Reflect.field (AssetType, "music".toUpperCase ()));
 			path.set ("assets/sounds/clash.ogg", "assets/sounds/clash.ogg");
@@ -1250,16 +1252,26 @@ class AssetData {
 			type.set ("assets/sounds/hurt.mp3", Reflect.field (AssetType, "music".toUpperCase ()));
 			path.set ("assets/sounds/hurt.ogg", "assets/sounds/hurt.ogg");
 			type.set ("assets/sounds/hurt.ogg", Reflect.field (AssetType, "sound".toUpperCase ()));
+			path.set ("assets/sounds/jump.ogg", "assets/sounds/jump.ogg");
+			type.set ("assets/sounds/jump.ogg", Reflect.field (AssetType, "sound".toUpperCase ()));
+			path.set ("assets/sounds/magnet_appear.ogg", "assets/sounds/magnet_appear.ogg");
+			type.set ("assets/sounds/magnet_appear.ogg", Reflect.field (AssetType, "sound".toUpperCase ()));
 			path.set ("assets/sounds/slash.mp3", "assets/sounds/slash.mp3");
 			type.set ("assets/sounds/slash.mp3", Reflect.field (AssetType, "music".toUpperCase ()));
 			path.set ("assets/sounds/slash.ogg", "assets/sounds/slash.ogg");
 			type.set ("assets/sounds/slash.ogg", Reflect.field (AssetType, "sound".toUpperCase ()));
 			path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
 			type.set ("assets/sounds/sounds-go-here.txt", Reflect.field (AssetType, "text".toUpperCase ()));
+			path.set ("assets/sounds/touch_ground.ogg", "assets/sounds/touch_ground.ogg");
+			type.set ("assets/sounds/touch_ground.ogg", Reflect.field (AssetType, "sound".toUpperCase ()));
 			path.set ("assets/sounds/beep.ogg", "assets/sounds/beep.ogg");
 			type.set ("assets/sounds/beep.ogg", Reflect.field (AssetType, "sound".toUpperCase ()));
 			path.set ("assets/sounds/flixel.ogg", "assets/sounds/flixel.ogg");
 			type.set ("assets/sounds/flixel.ogg", Reflect.field (AssetType, "sound".toUpperCase ()));
+			path.set ("assets/fonts/nokiafc22.ttf", "assets/fonts/nokiafc22.ttf");
+			type.set ("assets/fonts/nokiafc22.ttf", Reflect.field (AssetType, "font".toUpperCase ()));
+			path.set ("assets/fonts/arial.ttf", "assets/fonts/arial.ttf");
+			type.set ("assets/fonts/arial.ttf", Reflect.field (AssetType, "font".toUpperCase ()));
 			path.set ("clash", "assets/sounds/clash.ogg");
 			type.set ("clash", Reflect.field (AssetType, "sound".toUpperCase ()));
 			path.set ("slash", "assets/sounds/slash.ogg");
@@ -1270,6 +1282,14 @@ class AssetData {
 			type.set ("explode", Reflect.field (AssetType, "sound".toUpperCase ()));
 			path.set ("electrify", "assets/sounds/electrify.ogg");
 			type.set ("electrify", Reflect.field (AssetType, "sound".toUpperCase ()));
+			path.set ("background", "assets/sounds/backloop.ogg");
+			type.set ("background", Reflect.field (AssetType, "sound".toUpperCase ()));
+			path.set ("magnet_appear", "assets/sounds/magnet_appear.ogg");
+			type.set ("magnet_appear", Reflect.field (AssetType, "sound".toUpperCase ()));
+			path.set ("touch_ground", "assets/sounds/touch_ground.ogg");
+			type.set ("touch_ground", Reflect.field (AssetType, "sound".toUpperCase ()));
+			path.set ("jump", "assets/sounds/jump.ogg");
+			type.set ("jump", Reflect.field (AssetType, "sound".toUpperCase ()));
 			
 			
 			initialized = true;

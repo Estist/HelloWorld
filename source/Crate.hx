@@ -24,7 +24,7 @@ class Crate extends FlxNestedSprite
 	public var dragConstant:Int = 1;
 	public var touchs:Int = 0;
 	public var isOpen:Bool = false;
-	public var item:Bomb;
+	public var item:Item;
 	
 	public function new() 
 	{
@@ -53,7 +53,7 @@ class Crate extends FlxNestedSprite
 	
 	public function loadItem():Void
 	{
-		this.item = new Bomb();
+		this.item = new MagnetPowerUp();
 			
 		var itemPosition:FlxPoint = Utils.findMidPointForObject(this.item,this);
 		this.item.init(itemPosition.x, itemPosition.y);

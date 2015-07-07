@@ -65,7 +65,7 @@
 	<!--haxedef name="FLX_NO_KEYBOARD" if="mobile" /-->
 	<haxedef name="FLX_NO_TOUCH" if="desktop" />
 	<!--haxedef name="FLX_NO_GAMEPAD" /-->
-	
+
 	<!--Disable the Flixel core sound tray-->
 	<!--haxedef name="FLX_NO_SOUND_TRAY" /-->
 	
@@ -90,12 +90,21 @@
 		<sound path="hurt.ogg" id="hurt" />
 		<sound path="explode.ogg" id="explode" />
 		<sound path="electrify.ogg" id="electrify" />
+		<sound path="backloop.ogg" id="background" />
+		<sound path="magnet_appear.ogg" id="magnet_appear" />
+		<sound path="touch_ground.ogg" id="touch_ground" />
+		<sound path="jump.ogg" id="jump" />
 	</assets>
-	
 	<assets path="assets/sounds" if="flash">
 		<sound path="clash.mp3" id="clash" />
 		<sound path="slash.mp3" id="slash" />
 		<sound path="hurt.mp3" id="hurt" />
+		<sound path="hurt.mp3" id="electrify" />
+		<sound path="hurt.mp3" id="background" />
+		<sound path="hurt.mp3" id="magnet_appear" />
+		<sound path="hurt.mp3" id="touch_ground" />
+		<sound path="hurt.mp3" id="jump" />
+		<sound path="hurt.mp3" id="explode" />
 	</assets>
 	
 </project>

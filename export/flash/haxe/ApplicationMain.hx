@@ -2474,11 +2474,19 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/sounds/backloop.ogg");
+		types.push (lime.Assets.AssetType.MUSIC);
+		
+		
 		urls.push ("assets/sounds/clash.mp3");
 		types.push (lime.Assets.AssetType.MUSIC);
 		
 		
 		urls.push ("assets/sounds/clash.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/electrify.ogg");
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
@@ -2498,6 +2506,14 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
+		urls.push ("assets/sounds/jump.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/magnet_appear.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
 		urls.push ("assets/sounds/slash.mp3");
 		types.push (lime.Assets.AssetType.MUSIC);
 		
@@ -2510,6 +2526,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/sounds/touch_ground.ogg");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
 		urls.push ("assets/sounds/beep.mp3");
 		types.push (lime.Assets.AssetType.MUSIC);
 		
@@ -2518,11 +2538,43 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.MUSIC);
 		
 		
+		urls.push ("Nokia Cellphone FC Small");
+		types.push (lime.Assets.AssetType.FONT);
+		
+		
+		urls.push ("Arial");
+		types.push (lime.Assets.AssetType.FONT);
+		
+		
 		urls.push ("assets/sounds/clash.mp3");
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		
 		urls.push ("assets/sounds/slash.mp3");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/hurt.mp3");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/hurt.mp3");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/hurt.mp3");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/hurt.mp3");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/hurt.mp3");
+		types.push (lime.Assets.AssetType.SOUND);
+		
+		
+		urls.push ("assets/sounds/hurt.mp3");
 		types.push (lime.Assets.AssetType.SOUND);
 		
 		

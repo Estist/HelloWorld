@@ -8,6 +8,7 @@ import lime.audio.AudioSource;
 import lime.audio.openal.AL;
 import lime.audio.AudioBuffer;
 import lime.graphics.Image;
+import lime.system.BackgroundWorker;
 import lime.text.Font;
 import lime.utils.ByteArray;
 import lime.utils.UInt8Array;
@@ -1268,10 +1269,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/towerfall_test2_002.png", AssetType.IMAGE);
 		className.set ("assets/music/music-goes-here.txt", __ASSET__assets_music_music_goes_here_txt);
 		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
+		className.set ("assets/sounds/backloop.ogg", __ASSET__assets_sounds_backloop_ogg);
+		type.set ("assets/sounds/backloop.ogg", AssetType.MUSIC);
 		className.set ("assets/sounds/clash.mp3", __ASSET__assets_sounds_clash_mp3);
 		type.set ("assets/sounds/clash.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/clash.ogg", __ASSET__assets_sounds_clash_ogg);
 		type.set ("assets/sounds/clash.ogg", AssetType.SOUND);
+		className.set ("assets/sounds/electrify.ogg", __ASSET__assets_sounds_electrify_ogg);
+		type.set ("assets/sounds/electrify.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/explode.ogg", __ASSET__assets_sounds_explode_ogg);
 		type.set ("assets/sounds/explode.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/explodemini.wav", __ASSET__assets_sounds_explodemini_wav);
@@ -1280,22 +1285,44 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/sounds/hurt.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/hurt.ogg", __ASSET__assets_sounds_hurt_ogg);
 		type.set ("assets/sounds/hurt.ogg", AssetType.SOUND);
+		className.set ("assets/sounds/jump.ogg", __ASSET__assets_sounds_jump_ogg);
+		type.set ("assets/sounds/jump.ogg", AssetType.SOUND);
+		className.set ("assets/sounds/magnet_appear.ogg", __ASSET__assets_sounds_magnet_appear_ogg);
+		type.set ("assets/sounds/magnet_appear.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/slash.mp3", __ASSET__assets_sounds_slash_mp3);
 		type.set ("assets/sounds/slash.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/slash.ogg", __ASSET__assets_sounds_slash_ogg);
 		type.set ("assets/sounds/slash.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/sounds-go-here.txt", __ASSET__assets_sounds_sounds_go_here_txt);
 		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
+		className.set ("assets/sounds/touch_ground.ogg", __ASSET__assets_sounds_touch_ground_ogg);
+		type.set ("assets/sounds/touch_ground.ogg", AssetType.SOUND);
 		className.set ("assets/sounds/beep.mp3", __ASSET__assets_sounds_beep_mp3);
 		type.set ("assets/sounds/beep.mp3", AssetType.MUSIC);
 		className.set ("assets/sounds/flixel.mp3", __ASSET__assets_sounds_flixel_mp3);
 		type.set ("assets/sounds/flixel.mp3", AssetType.MUSIC);
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		className.set ("clash", __ASSET__assets_sounds_clash_mp4);
 		type.set ("clash", AssetType.SOUND);
 		className.set ("slash", __ASSET__assets_sounds_slash_mp4);
 		type.set ("slash", AssetType.SOUND);
 		className.set ("hurt", __ASSET__assets_sounds_hurt_mp4);
 		type.set ("hurt", AssetType.SOUND);
+		className.set ("electrify", __ASSET__assets_sounds_hurt_mp5);
+		type.set ("electrify", AssetType.SOUND);
+		className.set ("background", __ASSET__assets_sounds_hurt_mp6);
+		type.set ("background", AssetType.SOUND);
+		className.set ("magnet_appear", __ASSET__assets_sounds_hurt_mp7);
+		type.set ("magnet_appear", AssetType.SOUND);
+		className.set ("touch_ground", __ASSET__assets_sounds_hurt_mp8);
+		type.set ("touch_ground", AssetType.SOUND);
+		className.set ("jump", __ASSET__assets_sounds_hurt_mp9);
+		type.set ("jump", AssetType.SOUND);
+		className.set ("explode", __ASSET__assets_sounds_hurt_mp10);
+		type.set ("explode", AssetType.SOUND);
 		
 		
 		#elseif html5
@@ -3741,11 +3768,19 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/backloop.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/clash.mp3";
 		path.set (id, id);
 		
 		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/clash.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/electrify.ogg";
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
@@ -3765,6 +3800,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/jump.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/magnet_appear.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/slash.mp3";
 		path.set (id, id);
 		
@@ -3777,6 +3820,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/touch_ground.ogg";
+		path.set (id, id);
+		
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/beep.mp3";
 		path.set (id, id);
 		
@@ -3785,6 +3832,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.MUSIC);
+		id = "assets/fonts/nokiafc22.ttf";
+		className.set (id, __ASSET__assets_fonts_nokiafc22_ttf);
+		
+		type.set (id, AssetType.FONT);
+		id = "assets/fonts/arial.ttf";
+		className.set (id, __ASSET__assets_fonts_arial_ttf);
+		
+		type.set (id, AssetType.FONT);
 		id = "clash";
 		path.set (id, "assets/sounds/clash.mp3");
 		
@@ -3794,6 +3849,30 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		type.set (id, AssetType.SOUND);
 		id = "hurt";
+		path.set (id, "assets/sounds/hurt.mp3");
+		
+		type.set (id, AssetType.SOUND);
+		id = "electrify";
+		path.set (id, "assets/sounds/hurt.mp3");
+		
+		type.set (id, AssetType.SOUND);
+		id = "background";
+		path.set (id, "assets/sounds/hurt.mp3");
+		
+		type.set (id, AssetType.SOUND);
+		id = "magnet_appear";
+		path.set (id, "assets/sounds/hurt.mp3");
+		
+		type.set (id, AssetType.SOUND);
+		id = "touch_ground";
+		path.set (id, "assets/sounds/hurt.mp3");
+		
+		type.set (id, AssetType.SOUND);
+		id = "jump";
+		path.set (id, "assets/sounds/hurt.mp3");
+		
+		type.set (id, AssetType.SOUND);
+		id = "explode";
 		path.set (id, "assets/sounds/hurt.mp3");
 		
 		type.set (id, AssetType.SOUND);
@@ -4425,6 +4504,19 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_nokiafc22_ttf);
+		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_arial_ttf);
 		
 		
 		
@@ -6271,11 +6363,17 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/music/music-goes-here.txt", __ASSET__assets_music_music_goes_here_txt);
 		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
 		
+		className.set ("assets/sounds/backloop.ogg", __ASSET__assets_sounds_backloop_ogg);
+		type.set ("assets/sounds/backloop.ogg", AssetType.MUSIC);
+		
 		className.set ("assets/sounds/clash.mp3", __ASSET__assets_sounds_clash_mp3);
 		type.set ("assets/sounds/clash.mp3", AssetType.MUSIC);
 		
 		className.set ("assets/sounds/clash.ogg", __ASSET__assets_sounds_clash_ogg);
 		type.set ("assets/sounds/clash.ogg", AssetType.SOUND);
+		
+		className.set ("assets/sounds/electrify.ogg", __ASSET__assets_sounds_electrify_ogg);
+		type.set ("assets/sounds/electrify.ogg", AssetType.SOUND);
 		
 		className.set ("assets/sounds/explode.ogg", __ASSET__assets_sounds_explode_ogg);
 		type.set ("assets/sounds/explode.ogg", AssetType.SOUND);
@@ -6289,6 +6387,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/sounds/hurt.ogg", __ASSET__assets_sounds_hurt_ogg);
 		type.set ("assets/sounds/hurt.ogg", AssetType.SOUND);
 		
+		className.set ("assets/sounds/jump.ogg", __ASSET__assets_sounds_jump_ogg);
+		type.set ("assets/sounds/jump.ogg", AssetType.SOUND);
+		
+		className.set ("assets/sounds/magnet_appear.ogg", __ASSET__assets_sounds_magnet_appear_ogg);
+		type.set ("assets/sounds/magnet_appear.ogg", AssetType.SOUND);
+		
 		className.set ("assets/sounds/slash.mp3", __ASSET__assets_sounds_slash_mp3);
 		type.set ("assets/sounds/slash.mp3", AssetType.MUSIC);
 		
@@ -6298,11 +6402,20 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/sounds/sounds-go-here.txt", __ASSET__assets_sounds_sounds_go_here_txt);
 		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
 		
+		className.set ("assets/sounds/touch_ground.ogg", __ASSET__assets_sounds_touch_ground_ogg);
+		type.set ("assets/sounds/touch_ground.ogg", AssetType.SOUND);
+		
 		className.set ("assets/sounds/beep.mp3", __ASSET__assets_sounds_beep_mp3);
 		type.set ("assets/sounds/beep.mp3", AssetType.MUSIC);
 		
 		className.set ("assets/sounds/flixel.mp3", __ASSET__assets_sounds_flixel_mp3);
 		type.set ("assets/sounds/flixel.mp3", AssetType.MUSIC);
+		
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		
 		className.set ("clash", __ASSET__assets_sounds_clash_mp4);
 		type.set ("clash", AssetType.SOUND);
@@ -6312,6 +6425,24 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("hurt", __ASSET__assets_sounds_hurt_mp4);
 		type.set ("hurt", AssetType.SOUND);
+		
+		className.set ("electrify", __ASSET__assets_sounds_hurt_mp5);
+		type.set ("electrify", AssetType.SOUND);
+		
+		className.set ("background", __ASSET__assets_sounds_hurt_mp6);
+		type.set ("background", AssetType.SOUND);
+		
+		className.set ("magnet_appear", __ASSET__assets_sounds_hurt_mp7);
+		type.set ("magnet_appear", AssetType.SOUND);
+		
+		className.set ("touch_ground", __ASSET__assets_sounds_hurt_mp8);
+		type.set ("touch_ground", AssetType.SOUND);
+		
+		className.set ("jump", __ASSET__assets_sounds_hurt_mp9);
+		type.set ("jump", AssetType.SOUND);
+		
+		className.set ("explode", __ASSET__assets_sounds_hurt_mp10);
+		type.set ("explode", AssetType.SOUND);
 		
 		
 		if (useManifest) {
@@ -6449,13 +6580,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		var bytes:ByteArray = null;
 		var loader = Preloader.loaders.get (path.get (id));
-
+		
 		if (loader == null) {
-
+			
 			return null;
-
+			
 		}
-
+		
 		var data = loader.data;
 		
 		if (Std.is (data, String)) {
@@ -6604,13 +6735,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		var bytes:ByteArray = null;
 		var loader = Preloader.loaders.get (path.get (id));
-
+		
 		if (loader == null) {
-
+			
 			return null;
 			
 		}
-
+		
 		var data = loader.data;
 		
 		if (Std.is (data, String)) {
@@ -6698,6 +6829,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 	public override function loadAudioBuffer (id:String, handler:AudioBuffer -> Void):Void {
 		
 		#if (flash)
+		
 		if (path.exists (id)) {
 			
 			var soundLoader = new Sound ();
@@ -6708,13 +6840,17 @@ class DefaultAssetLibrary extends AssetLibrary {
 				handler (audioBuffer);
 				
 			});
+			
 			soundLoader.load (new URLRequest (path.get (id)));
 			
 		} else {
+			
 			handler (getAudioBuffer (id));
 			
 		}
+		
 		#else
+		
 		handler (getAudioBuffer (id));
 		
 		#end
@@ -6745,29 +6881,39 @@ class DefaultAssetLibrary extends AssetLibrary {
 			handler (getBytes (id));
 			
 		}
-
+		
 		#elseif html5
-
+		
 		if (path.exists (id)) {
-
+			
 			var loader = new URLLoader ();
 			loader.dataFormat = BINARY;
 			loader.onComplete.add (function (_):Void {
-
-				handler(loader.data);
-
-			});
-			loader.load (new URLRequest (path.get (id)));
 				
+				handler (loader.data);
+				
+			});
+			
+			loader.load (new URLRequest (path.get (id)));
+			
 		} else {
-
+			
 			handler (getBytes (id));
-
+			
 		}
 		
 		#else
 		
-		handler (getBytes (id));
+		var worker = new BackgroundWorker ();
+		
+		worker.doWork.add (function (_) {
+			
+			worker.sendComplete (getBytes (id));
+			
+		});
+		
+		worker.onComplete.add (handler);
+		worker.run ();
 		
 		#end
 		
@@ -6796,26 +6942,35 @@ class DefaultAssetLibrary extends AssetLibrary {
 		}
 		
 		#elseif html5
-
+		
 		if (path.exists (id)) {
-
+			
 			var image = new js.html.Image ();
 			image.onload = function (_):Void {
-
+				
 				handler (Image.fromImageElement (image));
-
+				
 			}
 			image.src = id;
-
+			
 		} else {
-
+			
 			handler (getImage (id));
-
+			
 		}
-
+		
 		#else
 		
-		handler (getImage (id));
+		var worker = new BackgroundWorker ();
+		
+		worker.doWork.add (function (_) {
+			
+			worker.sendComplete (getImage (id));
+			
+		});
+		
+		worker.onComplete.add (handler);
+		worker.run ();
 		
 		#end
 		
@@ -6925,10 +7080,11 @@ class DefaultAssetLibrary extends AssetLibrary {
 			
 			var loader = new URLLoader ();
 			loader.onComplete.add (function (_):Void {
-
-				handler(loader.data);
-
+				
+				handler (loader.data);
+				
 			});
+			
 			loader.load (new URLRequest (path.get (id)));
 			
 		} else {
@@ -7576,20 +7732,33 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_images_tile01_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_towerfall_test2_002_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_music_music_goes_here_txt extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_backloop_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_clash_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_clash_ogg extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_electrify_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_explode_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_explodemini_wav extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_ogg extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_jump_ogg extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_magnet_appear_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_slash_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_slash_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_sounds_go_here_txt extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_touch_ground_ogg extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_beep_mp3 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_flixel_mp3 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends flash.text.Font { }
+@:keep @:bind #if display private #end class __ASSET__assets_fonts_arial_ttf extends flash.text.Font { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_clash_mp4 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_slash_mp4 extends flash.media.Sound { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp4 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp5 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp6 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp7 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp8 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp9 extends flash.media.Sound { }
+@:keep @:bind #if display private #end class __ASSET__assets_sounds_hurt_mp10 extends flash.media.Sound { }
 
 
 #elseif html5
@@ -8220,6 +8389,19 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends lime.text.Font { public function new () { super (); name = "Nokia Cellphone FC Small"; } } 
+@:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends lime.text.Font { public function new () { super (); name = "Arial"; } } 
+
+
+
+
+
+
+
+
+
+
+
 #else
 
 
@@ -8837,26 +9019,41 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:image("assets/images/tile01.png") #if display private #end class __ASSET__assets_images_tile01_png extends lime.graphics.Image {}
 @:image("assets/images/towerfall_test2_002.png") #if display private #end class __ASSET__assets_images_towerfall_test2_002_png extends lime.graphics.Image {}
 @:file("assets/music/music-goes-here.txt") #if display private #end class __ASSET__assets_music_music_goes_here_txt extends lime.utils.ByteArray {}
+@:file("assets/sounds/backloop.ogg") #if display private #end class __ASSET__assets_sounds_backloop_ogg extends lime.utils.ByteArray {}
 @:file("assets/sounds/clash.mp3") #if display private #end class __ASSET__assets_sounds_clash_mp3 extends lime.utils.ByteArray {}
 @:file("assets/sounds/clash.ogg") #if display private #end class __ASSET__assets_sounds_clash_ogg extends lime.utils.ByteArray {}
+@:file("assets/sounds/electrify.ogg") #if display private #end class __ASSET__assets_sounds_electrify_ogg extends lime.utils.ByteArray {}
 @:file("assets/sounds/explode.ogg") #if display private #end class __ASSET__assets_sounds_explode_ogg extends lime.utils.ByteArray {}
 @:file("assets/sounds/explodemini.wav") #if display private #end class __ASSET__assets_sounds_explodemini_wav extends lime.utils.ByteArray {}
 @:file("assets/sounds/hurt.mp3") #if display private #end class __ASSET__assets_sounds_hurt_mp3 extends lime.utils.ByteArray {}
 @:file("assets/sounds/hurt.ogg") #if display private #end class __ASSET__assets_sounds_hurt_ogg extends lime.utils.ByteArray {}
+@:file("assets/sounds/jump.ogg") #if display private #end class __ASSET__assets_sounds_jump_ogg extends lime.utils.ByteArray {}
+@:file("assets/sounds/magnet_appear.ogg") #if display private #end class __ASSET__assets_sounds_magnet_appear_ogg extends lime.utils.ByteArray {}
 @:file("assets/sounds/slash.mp3") #if display private #end class __ASSET__assets_sounds_slash_mp3 extends lime.utils.ByteArray {}
 @:file("assets/sounds/slash.ogg") #if display private #end class __ASSET__assets_sounds_slash_ogg extends lime.utils.ByteArray {}
 @:file("assets/sounds/sounds-go-here.txt") #if display private #end class __ASSET__assets_sounds_sounds_go_here_txt extends lime.utils.ByteArray {}
-@:file("C:/Users/Esti/android/flixel/3,3,8/assets/sounds/beep.mp3") #if display private #end class __ASSET__assets_sounds_beep_mp3 extends lime.utils.ByteArray {}
-@:file("C:/Users/Esti/android/flixel/3,3,8/assets/sounds/flixel.mp3") #if display private #end class __ASSET__assets_sounds_flixel_mp3 extends lime.utils.ByteArray {}
+@:file("assets/sounds/touch_ground.ogg") #if display private #end class __ASSET__assets_sounds_touch_ground_ogg extends lime.utils.ByteArray {}
+@:file("C:/Users/Esti/android/flixel/3,3,10/assets/sounds/beep.mp3") #if display private #end class __ASSET__assets_sounds_beep_mp3 extends lime.utils.ByteArray {}
+@:file("C:/Users/Esti/android/flixel/3,3,10/assets/sounds/flixel.mp3") #if display private #end class __ASSET__assets_sounds_flixel_mp3 extends lime.utils.ByteArray {}
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/nokiafc22.ttf") #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends lime.text.Font {}
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/arial.ttf") #if display private #end class __ASSET__assets_fonts_arial_ttf extends lime.text.Font {}
 @:file("assets/sounds/clash.mp3") #if display private #end class __ASSET__assets_sounds_clash_mp4 extends lime.utils.ByteArray {}
 @:file("assets/sounds/slash.mp3") #if display private #end class __ASSET__assets_sounds_slash_mp4 extends lime.utils.ByteArray {}
 @:file("assets/sounds/hurt.mp3") #if display private #end class __ASSET__assets_sounds_hurt_mp4 extends lime.utils.ByteArray {}
+@:file("assets/sounds/hurt.mp3") #if display private #end class __ASSET__assets_sounds_hurt_mp5 extends lime.utils.ByteArray {}
+@:file("assets/sounds/hurt.mp3") #if display private #end class __ASSET__assets_sounds_hurt_mp6 extends lime.utils.ByteArray {}
+@:file("assets/sounds/hurt.mp3") #if display private #end class __ASSET__assets_sounds_hurt_mp7 extends lime.utils.ByteArray {}
+@:file("assets/sounds/hurt.mp3") #if display private #end class __ASSET__assets_sounds_hurt_mp8 extends lime.utils.ByteArray {}
+@:file("assets/sounds/hurt.mp3") #if display private #end class __ASSET__assets_sounds_hurt_mp9 extends lime.utils.ByteArray {}
+@:file("assets/sounds/hurt.mp3") #if display private #end class __ASSET__assets_sounds_hurt_mp10 extends lime.utils.ByteArray {}
 
 
 
 #end
 
 #if openfl
+@:keep #if display private #end class __ASSET__OPENFL__assets_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { var font = new __ASSET__assets_fonts_nokiafc22_ttf (); src = font.src; name = font.name; super (); }}
+@:keep #if display private #end class __ASSET__OPENFL__assets_fonts_arial_ttf extends openfl.text.Font { public function new () { var font = new __ASSET__assets_fonts_arial_ttf (); src = font.src; name = font.name; super (); }}
 
 #end
 
