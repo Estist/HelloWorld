@@ -81,6 +81,7 @@ class MenuState extends FlxState
 		Register.uiGroup = new FlxGroup();
 		Register.objectsGroup = new FlxGroup();
 		Register.bulletGroup = new FlxGroup();
+		Register.powerUpPickablesGroup = new FlxGroup();
 		
 		this.cameraInviObject = new FlxSprite();
 		//Register.effectsGroup.add(cameraInviObject);
@@ -151,6 +152,7 @@ class MenuState extends FlxState
 		add(Register.uiGroup);
 		add(Register.objectsGroup);
 		add(Register.bulletGroup);
+		add(Register.powerUpPickablesGroup);
 
 		//this.player.walljumpBox.visible = false;
 		
@@ -398,7 +400,8 @@ class MenuState extends FlxState
 	
 		FlxG.overlap(Register.logicGroup, Register.objectsGroup, attackBombFunction );
 		FlxG.overlap(Register.logicGroup, Register.playersGroup , killFunction);
-		FlxG.overlap(Register.objectsGroup, Register.playersGroup , pickItemsFunction);
+		FlxG.overlap(Register.powerUpPickablesGroup, Register.playersGroup , pickItemsFunction);
+		FlxG.overlap(Register.objectsGroup, Register.playersGroup , openCratesFunction);
 		FlxG.overlap(Register.bulletGroup, Register.playersGroup , bulletKillFunction);
 		//FlxG.overlap(Register.logicGroup, this.player , killFunction);
 		//FlxG.overlap(Register.logicGroup, Register.logicGroup , clashFunction);
@@ -484,22 +487,9 @@ class MenuState extends FlxState
 			player.kill();
 	}
 	
-	private function pickItemsFunction(item:FlxSprite ,player:Player):Void
-	{
-		if(Type.getClass(item) == MagnetPowerUp)
-		{
-			var itemTemp:Item = cast(item, Item);
-			
-			if (!itemTemp.pickedUp && itemTemp.canBePicked && player.itemSlot == null)
-			{
-				itemTemp.pickUp(player);
-				player.pickupItem(itemTemp);
-			}
-			else if (!itemTemp.canBePicked) {
-				//item.explode();
-			}
-		}
-		else if (Type.getClass(item) == Crate)
+	private function openCratesFunction(item:FlxSprite ,player:Player):Void
+	{		
+		if (Type.getClass(item) == Crate)
 		{
 			var itemTemp:Crate = cast(item, Crate);
 			
@@ -509,7 +499,21 @@ class MenuState extends FlxState
 			}
 		}
 	}
+	
+	private function pickItemsFunction(item:Item ,player:Player):Void
+	{		
+		//var itemTemp:Item = cast(item, Item);
 		
+		if (!item.pickedUp && item.canBePicked && player.itemSlot == null)
+		{
+			item.pickUp(player);
+			player.pickupItem(item);
+		}
+		else if (!item.canBePicked) {
+			//item.explode();
+		}
+	}
+	
 	private function killFunction(box:AttackBox ,player:Player):Void
 	{
 		if(box.parent != player)

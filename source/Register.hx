@@ -19,6 +19,7 @@ class Register
 	public static var uiGroup:FlxGroup;
 	public static var objectsGroup:FlxGroup;
 	public static var bulletGroup:FlxGroup;
+	public static var powerUpPickablesGroup:FlxGroup;
 	
 	//settings vars
 	public static var dashCooldown:Float = 1;

@@ -62,7 +62,7 @@ class Crate extends FlxNestedSprite
 		this.item.solid = false;
 		this.item.active = false;
 		
-		Register.objectsGroup.add(this.item);
+		Register.powerUpPickablesGroup.add(this.item);
 		
 	}
 	
