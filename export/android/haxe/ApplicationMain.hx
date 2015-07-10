@@ -44,7 +44,24 @@ class ApplicationMain {
 				flash.Lib.current.stage.scaleMode = flash.display.StageScaleMode.NO_SCALE;
 				flash.Lib.current.loaderInfo = flash.display.LoaderInfo.create (null);
 				
+				#if mobile
 				
+				forceWidth = 1920;
+				forceHeight = 1080;
+				
+				container = new flash.display.Sprite ();
+				barA = new flash.display.Sprite ();
+				barB = new flash.display.Sprite ();
+				
+				flash.Lib.current.stage.addChild (container);
+				container.addChild (flash.Lib.current);
+				container.addChild (barA);
+				container.addChild (barB);
+				
+				applyScale ();
+				flash.Lib.current.stage.addEventListener (flash.events.Event.RESIZE, applyScale);
+				
+				#end
 				
 				#if windows
 				try {
@@ -99,7 +116,7 @@ class ApplicationMain {
 				}
 				
 			},
-			0, 0, 
+			1920, 1080, 
 			60, 
 			0,
 			(true ? flash.Lib.HARDWARE : 0) |
@@ -115,12 +132,60 @@ class ApplicationMain {
 			(0 == 2 ? flash.Lib.HW_AA : 0),
 			"Prototype",
 			null
-			
+			#if mobile, ScaledStage #end
 		);
 		
 	}
 	
-	
+	#if mobile
+	public static function applyScale (?_) {
+		var scaledStage:ScaledStage = cast flash.Lib.current.stage;
+		
+		var xScale:Float = scaledStage.__stageWidth / forceWidth;
+		var yScale:Float = scaledStage.__stageHeight / forceHeight;
+		
+		if (xScale < yScale) {
+			
+			flash.Lib.current.scaleX = xScale;
+			flash.Lib.current.scaleY = xScale;
+			flash.Lib.current.x = (scaledStage.__stageWidth - (forceWidth * xScale)) / 2;
+			flash.Lib.current.y = (scaledStage.__stageHeight - (forceHeight * xScale)) / 2;
+			
+		} else {
+			
+			flash.Lib.current.scaleX = yScale;
+			flash.Lib.current.scaleY = yScale;
+			flash.Lib.current.x = (scaledStage.__stageWidth - (forceWidth * yScale)) / 2;
+			flash.Lib.current.y = (scaledStage.__stageHeight - (forceHeight * yScale)) / 2;
+			
+		}
+		
+		if (flash.Lib.current.x > 0) {
+			
+			barA.graphics.clear ();
+			barA.graphics.beginFill (0x000000);
+			barA.graphics.drawRect (0, 0, flash.Lib.current.x, scaledStage.__stageHeight);
+			
+			barB.graphics.clear ();
+			barB.graphics.beginFill (0x000000);
+			var x = flash.Lib.current.x + (forceWidth * flash.Lib.current.scaleX);
+			barB.graphics.drawRect (x, 0, scaledStage.__stageWidth - x, scaledStage.__stageHeight);
+			
+		} else {
+			
+			barA.graphics.clear ();
+			barA.graphics.beginFill (0x000000);
+			barA.graphics.drawRect (0, 0, scaledStage.__stageWidth, flash.Lib.current.y);
+			
+			barB.graphics.clear ();
+			barB.graphics.beginFill (0x000000);
+			var y = flash.Lib.current.y + (forceHeight * flash.Lib.current.scaleY);
+			barB.graphics.drawRect (0, y, scaledStage.__stageWidth, scaledStage.__stageHeight - y);
+			
+		}
+		
+	}
+	#end
 	
 	
 	#if neko
@@ -141,7 +206,50 @@ class ApplicationMain {
 @:keep class DocumentClass extends Main {}
 
 
-
+#if mobile
+class ScaledStage extends flash.display.Stage {
+	
+	
+	public var __stageHeight (get, null):Int;
+	public var __stageWidth (get, null):Int;
+	
+	
+	public function new (inHandle:Dynamic, inWidth:Int, inHeight:Int) {
+		
+		super (inHandle, 0, 0);
+		
+	}
+	
+	
+	private function get___stageHeight ():Int {
+		
+		return super.get_stageHeight ();
+		
+	}
+	
+	
+	private function get___stageWidth():Int {
+		
+		return super.get_stageWidth ();
+		
+	}
+	
+	
+	private override function get_stageHeight ():Int {
+		
+		return 1080;
+	
+	}
+	
+	private override function get_stageWidth ():Int {
+		
+		return 1920;
+	
+	}
+	
+	
+}
+#end
 
 
 #elseif macro
@@ -206,11 +314,11 @@ class ApplicationMain {
 		wx.App.boot (function () {
 			
 			
-			frame = wx.Frame.create (null, null, "Prototype", null, { width: 0, height: 0 });
+			frame = wx.Frame.create (null, null, "Prototype", null, { width: 1920, height: 1080 });
 			
 			
 			#if openfl
-			var stage = wx.NMEStage.create (frame, null, null, { width: 0, height: 0 });
+			var stage = wx.NMEStage.create (frame, null, null, { width: 1920, height: 1080 });
 			#end
 			
 			var hasMain = false;
@@ -310,6 +418,14 @@ class ApplicationMain {
 		var types = [];
 		
 		
+		urls.push ("Nokia Cellphone FC Small");
+		types.push (lime.Assets.AssetType.FONT);
+		
+		
+		urls.push ("Arial");
+		types.push (lime.Assets.AssetType.FONT);
+		
+		
 		
 		if (config.assetsPrefix != null) {
 			
@@ -378,7 +494,7 @@ class ApplicationMain {
 			file: "Prototype",
 			fps: Std.int (60),
 			fullscreen: true,
-			height: Std.int (0),
+			height: Std.int (1080),
 			orientation: "landscape",
 			packageName: "com.example.myapp",
 			resizable: true,
@@ -386,13 +502,13 @@ class ApplicationMain {
 			title: "Prototype",
 			version: "0.0.1",
 			vsync: true,
-			width: Std.int (0),
+			width: Std.int (1920),
 			
 		}
 		
 		#if (js && html5)
 		#if (munit || utest)
-		openfl.Lib.embed (null, 0, 0, "null");
+		openfl.Lib.embed (null, 1920, 1080, "null");
 		#end
 		#else
 		create ();

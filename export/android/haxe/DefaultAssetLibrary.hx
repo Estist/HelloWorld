@@ -55,8 +55,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/big version.dam.bak", AssetType.TEXT);
 		path.set ("assets/data/data-goes-here.txt", "assets/data/data-goes-here.txt");
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
-		path.set ("assets/data/mapCSV_Group1_Map1.csv", "assets/data/mapCSV_Group1_Map1.csv");
-		type.set ("assets/data/mapCSV_Group1_Map1.csv", AssetType.TEXT);
+		path.set ("assets/data/mapcsv_group1_map1.csv", "assets/data/mapcsv_group1_map1.csv");
+		type.set ("assets/data/mapcsv_group1_map1.csv", AssetType.TEXT);
 		path.set ("assets/data/megaversion.dam", "assets/data/megaversion.dam");
 		type.set ("assets/data/megaversion.dam", AssetType.TEXT);
 		path.set ("assets/data/megaversion.dam.bak", "assets/data/megaversion.dam.bak");
@@ -71,16 +71,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/textureNew.tps", AssetType.TEXT);
 		path.set ("assets/data/textureWithFolders.tps", "assets/data/textureWithFolders.tps");
 		type.set ("assets/data/textureWithFolders.tps", AssetType.TEXT);
+		path.set ("assets/data/textureWithFoldersAndroid.tps", "assets/data/textureWithFoldersAndroid.tps");
+		type.set ("assets/data/textureWithFoldersAndroid.tps", AssetType.TEXT);
 		path.set ("assets/images/1.png", "assets/images/1.png");
 		type.set ("assets/images/1.png", AssetType.IMAGE);
 		path.set ("assets/images/2.png", "assets/images/2.png");
 		type.set ("assets/images/2.png", AssetType.IMAGE);
-		path.set ("assets/images/charLight.png", "assets/images/charLight.png");
-		type.set ("assets/images/charLight.png", AssetType.IMAGE);
-		path.set ("assets/images/cityCartoon_01.swf", "assets/images/cityCartoon_01.swf");
-		type.set ("assets/images/cityCartoon_01.swf", AssetType.TEXT);
-		path.set ("assets/images/conceptLab.png", "assets/images/conceptLab.png");
-		type.set ("assets/images/conceptLab.png", AssetType.IMAGE);
+		path.set ("assets/images/char_light.png", "assets/images/char_light.png");
+		type.set ("assets/images/char_light.png", AssetType.IMAGE);
 		path.set ("assets/images/images-go-here.txt", "assets/images/images-go-here.txt");
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
 		path.set ("assets/images/ligth.png", "assets/images/ligth.png");
@@ -89,8 +87,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/marco.png", AssetType.IMAGE);
 		path.set ("assets/images/piedritas.png", "assets/images/piedritas.png");
 		type.set ("assets/images/piedritas.png", AssetType.IMAGE);
-		path.set ("assets/images/sceneLightBlue.png", "assets/images/sceneLightBlue.png");
-		type.set ("assets/images/sceneLightBlue.png", AssetType.IMAGE);
+		path.set ("assets/images/scene_light_blue.png", "assets/images/scene_light_blue.png");
+		type.set ("assets/images/scene_light_blue.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png", "assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png");
 		type.set ("assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/-sword_floorSideCutExport0015REMOVED.png", "assets/images/sprites/chief/-sword_floorSideCutExport0015REMOVED.png");
@@ -187,28 +185,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/sprites/chief/AirDeathExport0045.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/AirDeathExport0046.png", "assets/images/sprites/chief/AirDeathExport0046.png");
 		type.set ("assets/images/sprites/chief/AirDeathExport0046.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0001.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0001.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0001.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0002.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0002.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0002.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0003.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0003.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0003.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0004.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0004.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0004.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0005.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0005.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0005.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0006.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0006.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0006.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0007.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0007.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0007.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0008.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0008.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0008.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0009.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0009.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0009.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0010.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0010.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0010.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0011.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0011.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0011.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/IdleExport0001.png", "assets/images/sprites/chief/IdleExport0001.png");
 		type.set ("assets/images/sprites/chief/IdleExport0001.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/IdleExport0002.png", "assets/images/sprites/chief/IdleExport0002.png");
@@ -491,50 +467,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/sprites/FX/DashGunTrailEXPORT.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/DashTrailExport.png", "assets/images/sprites/FX/DashTrailExport.png");
 		type.set ("assets/images/sprites/FX/DashTrailExport.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0001.png", "assets/images/sprites/FX/floorFall_0001.png");
-		type.set ("assets/images/sprites/FX/floorFall_0001.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0002.png", "assets/images/sprites/FX/floorFall_0002.png");
-		type.set ("assets/images/sprites/FX/floorFall_0002.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0003.png", "assets/images/sprites/FX/floorFall_0003.png");
-		type.set ("assets/images/sprites/FX/floorFall_0003.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0004.png", "assets/images/sprites/FX/floorFall_0004.png");
-		type.set ("assets/images/sprites/FX/floorFall_0004.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0005.png", "assets/images/sprites/FX/floorFall_0005.png");
-		type.set ("assets/images/sprites/FX/floorFall_0005.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0006.png", "assets/images/sprites/FX/floorFall_0006.png");
-		type.set ("assets/images/sprites/FX/floorFall_0006.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0007.png", "assets/images/sprites/FX/floorFall_0007.png");
-		type.set ("assets/images/sprites/FX/floorFall_0007.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0008.png", "assets/images/sprites/FX/floorFall_0008.png");
-		type.set ("assets/images/sprites/FX/floorFall_0008.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0009.png", "assets/images/sprites/FX/floorFall_0009.png");
-		type.set ("assets/images/sprites/FX/floorFall_0009.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0010.png", "assets/images/sprites/FX/floorFall_0010.png");
-		type.set ("assets/images/sprites/FX/floorFall_0010.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0011.png", "assets/images/sprites/FX/floorFall_0011.png");
-		type.set ("assets/images/sprites/FX/floorFall_0011.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0012.png", "assets/images/sprites/FX/floorFall_0012.png");
-		type.set ("assets/images/sprites/FX/floorFall_0012.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0013.png", "assets/images/sprites/FX/floorFall_0013.png");
-		type.set ("assets/images/sprites/FX/floorFall_0013.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0014.png", "assets/images/sprites/FX/floorFall_0014.png");
-		type.set ("assets/images/sprites/FX/floorFall_0014.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0015.png", "assets/images/sprites/FX/floorFall_0015.png");
-		type.set ("assets/images/sprites/FX/floorFall_0015.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0016.png", "assets/images/sprites/FX/floorFall_0016.png");
-		type.set ("assets/images/sprites/FX/floorFall_0016.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0017.png", "assets/images/sprites/FX/floorFall_0017.png");
-		type.set ("assets/images/sprites/FX/floorFall_0017.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0018.png", "assets/images/sprites/FX/floorFall_0018.png");
-		type.set ("assets/images/sprites/FX/floorFall_0018.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0019.png", "assets/images/sprites/FX/floorFall_0019.png");
-		type.set ("assets/images/sprites/FX/floorFall_0019.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0020.png", "assets/images/sprites/FX/floorFall_0020.png");
-		type.set ("assets/images/sprites/FX/floorFall_0020.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0021.png", "assets/images/sprites/FX/floorFall_0021.png");
-		type.set ("assets/images/sprites/FX/floorFall_0021.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0022.png", "assets/images/sprites/FX/floorFall_0022.png");
-		type.set ("assets/images/sprites/FX/floorFall_0022.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/floorFall_2_0001.png", "assets/images/sprites/FX/floorFall_2_0001.png");
 		type.set ("assets/images/sprites/FX/floorFall_2_0001.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/floorFall_2_0002.png", "assets/images/sprites/FX/floorFall_2_0002.png");
@@ -631,44 +563,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/sprites/FX/floorJump1_0023.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/floorJump1_0024.png", "assets/images/sprites/FX/floorJump1_0024.png");
 		type.set ("assets/images/sprites/FX/floorJump1_0024.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0001.png", "assets/images/sprites/FX/floorJump2_0001.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0001.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0002.png", "assets/images/sprites/FX/floorJump2_0002.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0002.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0003.png", "assets/images/sprites/FX/floorJump2_0003.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0003.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0004.png", "assets/images/sprites/FX/floorJump2_0004.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0004.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0005.png", "assets/images/sprites/FX/floorJump2_0005.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0005.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0006.png", "assets/images/sprites/FX/floorJump2_0006.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0006.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0007.png", "assets/images/sprites/FX/floorJump2_0007.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0007.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0008.png", "assets/images/sprites/FX/floorJump2_0008.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0008.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0009.png", "assets/images/sprites/FX/floorJump2_0009.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0009.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0010.png", "assets/images/sprites/FX/floorJump2_0010.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0010.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0011.png", "assets/images/sprites/FX/floorJump2_0011.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0011.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0012.png", "assets/images/sprites/FX/floorJump2_0012.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0012.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0013.png", "assets/images/sprites/FX/floorJump2_0013.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0013.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0014.png", "assets/images/sprites/FX/floorJump2_0014.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0014.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0015.png", "assets/images/sprites/FX/floorJump2_0015.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0015.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0016.png", "assets/images/sprites/FX/floorJump2_0016.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0016.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0017.png", "assets/images/sprites/FX/floorJump2_0017.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0017.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0018.png", "assets/images/sprites/FX/floorJump2_0018.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0018.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0019.png", "assets/images/sprites/FX/floorJump2_0019.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0019.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/fx_run_0001.png", "assets/images/sprites/FX/fx_run_0001.png");
 		type.set ("assets/images/sprites/FX/fx_run_0001.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/fx_run_0002.png", "assets/images/sprites/FX/fx_run_0002.png");
@@ -1163,18 +1057,118 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/sprites/pUps/explosion_0035.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/pUps/explosion_0036.png", "assets/images/sprites/pUps/explosion_0036.png");
 		type.set ("assets/images/sprites/pUps/explosion_0036.png", AssetType.IMAGE);
-		path.set ("assets/images/spritesheetTp.png", "assets/images/spritesheetTp.png");
-		type.set ("assets/images/spritesheetTp.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0001.png", "assets/images/sprites/pUps/magnet_main_0001.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0001.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0002.png", "assets/images/sprites/pUps/magnet_main_0002.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0002.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0003.png", "assets/images/sprites/pUps/magnet_main_0003.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0003.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0004.png", "assets/images/sprites/pUps/magnet_main_0004.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0004.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0005.png", "assets/images/sprites/pUps/magnet_main_0005.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0005.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0006.png", "assets/images/sprites/pUps/magnet_main_0006.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0006.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0007.png", "assets/images/sprites/pUps/magnet_main_0007.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0007.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0008.png", "assets/images/sprites/pUps/magnet_main_0008.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0008.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0009.png", "assets/images/sprites/pUps/magnet_main_0009.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0009.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0010.png", "assets/images/sprites/pUps/magnet_main_0010.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0010.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0011.png", "assets/images/sprites/pUps/magnet_main_0011.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0011.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0012.png", "assets/images/sprites/pUps/magnet_main_0012.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0012.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0013.png", "assets/images/sprites/pUps/magnet_main_0013.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0013.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0014.png", "assets/images/sprites/pUps/magnet_main_0014.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0014.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0015.png", "assets/images/sprites/pUps/magnet_main_0015.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0015.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0016.png", "assets/images/sprites/pUps/magnet_main_0016.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0016.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0017.png", "assets/images/sprites/pUps/magnet_main_0017.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0017.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0018.png", "assets/images/sprites/pUps/magnet_main_0018.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0018.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0019.png", "assets/images/sprites/pUps/magnet_main_0019.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0019.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0020.png", "assets/images/sprites/pUps/magnet_main_0020.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0020.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0021.png", "assets/images/sprites/pUps/magnet_main_0021.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0021.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0022.png", "assets/images/sprites/pUps/magnet_main_0022.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0022.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0023.png", "assets/images/sprites/pUps/magnet_main_0023.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0023.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0024.png", "assets/images/sprites/pUps/magnet_main_0024.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0024.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0025.png", "assets/images/sprites/pUps/magnet_main_0025.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0025.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0026.png", "assets/images/sprites/pUps/magnet_main_0026.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0026.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0027.png", "assets/images/sprites/pUps/magnet_main_0027.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0027.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0028.png", "assets/images/sprites/pUps/magnet_main_0028.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0028.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0029.png", "assets/images/sprites/pUps/magnet_main_0029.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0029.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0030.png", "assets/images/sprites/pUps/magnet_main_0030.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0030.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0031.png", "assets/images/sprites/pUps/magnet_main_0031.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0031.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0032.png", "assets/images/sprites/pUps/magnet_main_0032.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0032.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0033.png", "assets/images/sprites/pUps/magnet_main_0033.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0033.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0034.png", "assets/images/sprites/pUps/magnet_main_0034.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0034.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0035.png", "assets/images/sprites/pUps/magnet_main_0035.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0035.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0036.png", "assets/images/sprites/pUps/magnet_main_0036.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0036.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0037.png", "assets/images/sprites/pUps/magnet_main_0037.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0037.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0038.png", "assets/images/sprites/pUps/magnet_main_0038.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0038.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0039.png", "assets/images/sprites/pUps/magnet_main_0039.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0039.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0040.png", "assets/images/sprites/pUps/magnet_main_0040.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0040.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0041.png", "assets/images/sprites/pUps/magnet_main_0041.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0041.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0042.png", "assets/images/sprites/pUps/magnet_main_0042.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0042.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0043.png", "assets/images/sprites/pUps/magnet_main_0043.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0043.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0044.png", "assets/images/sprites/pUps/magnet_main_0044.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0044.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0045.png", "assets/images/sprites/pUps/magnet_main_0045.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0045.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0046.png", "assets/images/sprites/pUps/magnet_main_0046.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0046.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0047.png", "assets/images/sprites/pUps/magnet_main_0047.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0047.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0048.png", "assets/images/sprites/pUps/magnet_main_0048.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0048.png", AssetType.IMAGE);
+		path.set ("assets/images/spritesheettp.png", "assets/images/spritesheettp.png");
+		type.set ("assets/images/spritesheettp.png", AssetType.IMAGE);
 		path.set ("assets/images/tile01.png", "assets/images/tile01.png");
 		type.set ("assets/images/tile01.png", AssetType.IMAGE);
 		path.set ("assets/images/towerfall_test2_002.png", "assets/images/towerfall_test2_002.png");
 		type.set ("assets/images/towerfall_test2_002.png", AssetType.IMAGE);
 		path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
 		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
+		path.set ("assets/sounds/backloop.ogg", "assets/sounds/backloop.ogg");
+		type.set ("assets/sounds/backloop.ogg", AssetType.MUSIC);
 		path.set ("assets/sounds/clash.mp3", "assets/sounds/clash.mp3");
 		type.set ("assets/sounds/clash.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/clash.ogg", "assets/sounds/clash.ogg");
 		type.set ("assets/sounds/clash.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/electrify.ogg", "assets/sounds/electrify.ogg");
+		type.set ("assets/sounds/electrify.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/explode.ogg", "assets/sounds/explode.ogg");
 		type.set ("assets/sounds/explode.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/explodemini.wav", "assets/sounds/explodemini.wav");
@@ -1183,16 +1177,26 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/sounds/hurt.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/hurt.ogg", "assets/sounds/hurt.ogg");
 		type.set ("assets/sounds/hurt.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/jump.ogg", "assets/sounds/jump.ogg");
+		type.set ("assets/sounds/jump.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/magnet_appear.ogg", "assets/sounds/magnet_appear.ogg");
+		type.set ("assets/sounds/magnet_appear.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/slash.mp3", "assets/sounds/slash.mp3");
 		type.set ("assets/sounds/slash.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/slash.ogg", "assets/sounds/slash.ogg");
 		type.set ("assets/sounds/slash.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
 		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
+		path.set ("assets/sounds/touch_ground.ogg", "assets/sounds/touch_ground.ogg");
+		type.set ("assets/sounds/touch_ground.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/beep.ogg", "assets/sounds/beep.ogg");
 		type.set ("assets/sounds/beep.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/flixel.ogg", "assets/sounds/flixel.ogg");
 		type.set ("assets/sounds/flixel.ogg", AssetType.SOUND);
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		path.set ("clash", "assets/sounds/clash.ogg");
 		type.set ("clash", AssetType.SOUND);
 		path.set ("slash", "assets/sounds/slash.ogg");
@@ -1201,6 +1205,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("hurt", AssetType.SOUND);
 		path.set ("explode", "assets/sounds/explode.ogg");
 		type.set ("explode", AssetType.SOUND);
+		path.set ("electrify", "assets/sounds/electrify.ogg");
+		type.set ("electrify", AssetType.SOUND);
+		path.set ("background", "assets/sounds/backloop.ogg");
+		type.set ("background", AssetType.SOUND);
+		path.set ("magnet_appear", "assets/sounds/magnet_appear.ogg");
+		type.set ("magnet_appear", AssetType.SOUND);
+		path.set ("touch_ground", "assets/sounds/touch_ground.ogg");
+		type.set ("touch_ground", AssetType.SOUND);
+		path.set ("jump", "assets/sounds/jump.ogg");
+		type.set ("jump", AssetType.SOUND);
 		
 		
 		#elseif html5
@@ -1215,7 +1229,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/data/data-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
-		id = "assets/data/mapCSV_Group1_Map1.csv";
+		id = "assets/data/mapcsv_group1_map1.csv";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "assets/data/megaversion.dam";
@@ -1239,19 +1253,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/data/textureWithFolders.tps";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/data/textureWithFoldersAndroid.tps";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
 		id = "assets/images/1.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/2.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/charLight.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/cityCartoon_01.swf";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/images/conceptLab.png";
+		id = "assets/images/char_light.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/images-go-here.txt";
@@ -1266,7 +1277,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/images/piedritas.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sceneLightBlue.png";
+		id = "assets/images/scene_light_blue.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png";
@@ -1411,39 +1422,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/chief/AirDeathExport0046.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0001.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0002.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0003.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0004.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0005.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0006.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0007.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0008.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0009.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0010.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0011.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/chief/IdleExport0001.png";
@@ -1869,72 +1847,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/images/sprites/FX/DashTrailExport.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0001.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0002.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0003.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0004.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0005.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0006.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0007.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0008.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0009.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0010.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0011.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0012.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0013.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0014.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0015.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0016.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0017.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0018.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0019.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0020.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0021.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0022.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/FX/floorFall_2_0001.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
@@ -2077,63 +1989,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/FX/floorJump1_0024.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0001.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0002.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0003.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0004.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0005.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0006.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0007.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0008.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0009.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0010.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0011.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0012.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0013.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0014.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0015.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0016.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0017.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0018.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0019.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/FX/fx_run_0001.png";
@@ -2877,7 +2732,151 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/images/sprites/pUps/explosion_0036.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/spritesheetTp.png";
+		id = "assets/images/sprites/pUps/magnet_main_0001.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0002.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0003.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0004.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0005.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0006.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0007.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0008.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0009.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0010.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0011.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0012.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0013.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0014.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0015.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0016.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0017.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0018.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0019.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0020.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0021.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0022.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0023.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0024.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0025.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0026.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0027.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0028.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0029.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0030.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0031.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0032.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0033.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0034.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0035.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0036.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0037.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0038.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0039.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0040.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0041.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0042.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0043.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0044.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0045.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0046.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0047.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0048.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/spritesheettp.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/tile01.png";
@@ -2889,10 +2888,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/music/music-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/backloop.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/clash.mp3";
 		path.set (id, id);
 		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/clash.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/electrify.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/explode.ogg";
@@ -2907,6 +2912,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/sounds/hurt.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/jump.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/magnet_appear.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/slash.mp3";
 		path.set (id, id);
 		type.set (id, AssetType.MUSIC);
@@ -2916,12 +2927,23 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/sounds/sounds-go-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/touch_ground.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/beep.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/flixel.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
+		id = "assets/fonts/nokiafc22.ttf";
+		className.set (id, __ASSET__assets_fonts_nokiafc22_ttf);
+		
+		type.set (id, AssetType.FONT);
+		id = "assets/fonts/arial.ttf";
+		className.set (id, __ASSET__assets_fonts_arial_ttf);
+		
+		type.set (id, AssetType.FONT);
 		id = "clash";
 		path.set (id, "assets/sounds/clash.ogg");
 		type.set (id, AssetType.SOUND);
@@ -2933,6 +2955,21 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set (id, AssetType.SOUND);
 		id = "explode";
 		path.set (id, "assets/sounds/explode.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "electrify";
+		path.set (id, "assets/sounds/electrify.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "background";
+		path.set (id, "assets/sounds/backloop.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "magnet_appear";
+		path.set (id, "assets/sounds/magnet_appear.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "touch_ground";
+		path.set (id, "assets/sounds/touch_ground.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "jump";
+		path.set (id, "assets/sounds/jump.ogg");
 		type.set (id, AssetType.SOUND);
 		
 		
@@ -3506,6 +3543,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
+		
+		
+		Font.registerFont (__ASSET__assets_fonts_nokiafc22_ttf);
+		Font.registerFont (__ASSET__assets_fonts_arial_ttf);
 		
 		
 		
@@ -4087,6 +4131,17 @@ class DefaultAssetLibrary extends AssetLibrary {
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -5285,6 +5340,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends null { }
+@:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends null { }
+
+
+
+
+
 
 
 
@@ -5865,6 +5927,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends flash.text.Font { #if (!openfl_html5_dom) public function new () { super (); fontName = "Nokia Cellphone FC Small"; } #end }
+@:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends flash.text.Font { #if (!openfl_html5_dom) public function new () { super (); fontName = "Arial"; } #end }
+
+
+
+
+
 
 
 
@@ -5876,6 +5945,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if (windows || mac || linux)
 
 
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/nokiafc22.ttf") @:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends flash.text.Font {}
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/arial.ttf") @:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends flash.text.Font {}
 
 
 
@@ -5884,6 +5955,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 #else
 
 
+class __ASSET__assets_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "assets/fonts/nokiafc22.ttf"; fontName = "Nokia Cellphone FC Small";  }}
+class __ASSET__assets_fonts_arial_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "assets/fonts/arial.ttf"; fontName = "Arial";  }}
 
 
 #end
@@ -5947,8 +6020,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/big version.dam.bak", AssetType.TEXT);
 		path.set ("assets/data/data-goes-here.txt", "assets/data/data-goes-here.txt");
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
-		path.set ("assets/data/mapCSV_Group1_Map1.csv", "assets/data/mapCSV_Group1_Map1.csv");
-		type.set ("assets/data/mapCSV_Group1_Map1.csv", AssetType.TEXT);
+		path.set ("assets/data/mapcsv_group1_map1.csv", "assets/data/mapcsv_group1_map1.csv");
+		type.set ("assets/data/mapcsv_group1_map1.csv", AssetType.TEXT);
 		path.set ("assets/data/megaversion.dam", "assets/data/megaversion.dam");
 		type.set ("assets/data/megaversion.dam", AssetType.TEXT);
 		path.set ("assets/data/megaversion.dam.bak", "assets/data/megaversion.dam.bak");
@@ -5963,16 +6036,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/textureNew.tps", AssetType.TEXT);
 		path.set ("assets/data/textureWithFolders.tps", "assets/data/textureWithFolders.tps");
 		type.set ("assets/data/textureWithFolders.tps", AssetType.TEXT);
+		path.set ("assets/data/textureWithFoldersAndroid.tps", "assets/data/textureWithFoldersAndroid.tps");
+		type.set ("assets/data/textureWithFoldersAndroid.tps", AssetType.TEXT);
 		path.set ("assets/images/1.png", "assets/images/1.png");
 		type.set ("assets/images/1.png", AssetType.IMAGE);
 		path.set ("assets/images/2.png", "assets/images/2.png");
 		type.set ("assets/images/2.png", AssetType.IMAGE);
-		path.set ("assets/images/charLight.png", "assets/images/charLight.png");
-		type.set ("assets/images/charLight.png", AssetType.IMAGE);
-		path.set ("assets/images/cityCartoon_01.swf", "assets/images/cityCartoon_01.swf");
-		type.set ("assets/images/cityCartoon_01.swf", AssetType.TEXT);
-		path.set ("assets/images/conceptLab.png", "assets/images/conceptLab.png");
-		type.set ("assets/images/conceptLab.png", AssetType.IMAGE);
+		path.set ("assets/images/char_light.png", "assets/images/char_light.png");
+		type.set ("assets/images/char_light.png", AssetType.IMAGE);
 		path.set ("assets/images/images-go-here.txt", "assets/images/images-go-here.txt");
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
 		path.set ("assets/images/ligth.png", "assets/images/ligth.png");
@@ -5981,8 +6052,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/marco.png", AssetType.IMAGE);
 		path.set ("assets/images/piedritas.png", "assets/images/piedritas.png");
 		type.set ("assets/images/piedritas.png", AssetType.IMAGE);
-		path.set ("assets/images/sceneLightBlue.png", "assets/images/sceneLightBlue.png");
-		type.set ("assets/images/sceneLightBlue.png", AssetType.IMAGE);
+		path.set ("assets/images/scene_light_blue.png", "assets/images/scene_light_blue.png");
+		type.set ("assets/images/scene_light_blue.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png", "assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png");
 		type.set ("assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/-sword_floorSideCutExport0015REMOVED.png", "assets/images/sprites/chief/-sword_floorSideCutExport0015REMOVED.png");
@@ -6079,28 +6150,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/sprites/chief/AirDeathExport0045.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/AirDeathExport0046.png", "assets/images/sprites/chief/AirDeathExport0046.png");
 		type.set ("assets/images/sprites/chief/AirDeathExport0046.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0001.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0001.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0001.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0002.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0002.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0002.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0003.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0003.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0003.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0004.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0004.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0004.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0005.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0005.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0005.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0006.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0006.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0006.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0007.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0007.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0007.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0008.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0008.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0008.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0009.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0009.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0009.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0010.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0010.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0010.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0011.png", "assets/images/sprites/chief/Chief_CoverNoBallExport0011.png");
-		type.set ("assets/images/sprites/chief/Chief_CoverNoBallExport0011.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/IdleExport0001.png", "assets/images/sprites/chief/IdleExport0001.png");
 		type.set ("assets/images/sprites/chief/IdleExport0001.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/chief/IdleExport0002.png", "assets/images/sprites/chief/IdleExport0002.png");
@@ -6383,50 +6432,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/sprites/FX/DashGunTrailEXPORT.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/DashTrailExport.png", "assets/images/sprites/FX/DashTrailExport.png");
 		type.set ("assets/images/sprites/FX/DashTrailExport.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0001.png", "assets/images/sprites/FX/floorFall_0001.png");
-		type.set ("assets/images/sprites/FX/floorFall_0001.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0002.png", "assets/images/sprites/FX/floorFall_0002.png");
-		type.set ("assets/images/sprites/FX/floorFall_0002.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0003.png", "assets/images/sprites/FX/floorFall_0003.png");
-		type.set ("assets/images/sprites/FX/floorFall_0003.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0004.png", "assets/images/sprites/FX/floorFall_0004.png");
-		type.set ("assets/images/sprites/FX/floorFall_0004.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0005.png", "assets/images/sprites/FX/floorFall_0005.png");
-		type.set ("assets/images/sprites/FX/floorFall_0005.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0006.png", "assets/images/sprites/FX/floorFall_0006.png");
-		type.set ("assets/images/sprites/FX/floorFall_0006.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0007.png", "assets/images/sprites/FX/floorFall_0007.png");
-		type.set ("assets/images/sprites/FX/floorFall_0007.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0008.png", "assets/images/sprites/FX/floorFall_0008.png");
-		type.set ("assets/images/sprites/FX/floorFall_0008.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0009.png", "assets/images/sprites/FX/floorFall_0009.png");
-		type.set ("assets/images/sprites/FX/floorFall_0009.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0010.png", "assets/images/sprites/FX/floorFall_0010.png");
-		type.set ("assets/images/sprites/FX/floorFall_0010.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0011.png", "assets/images/sprites/FX/floorFall_0011.png");
-		type.set ("assets/images/sprites/FX/floorFall_0011.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0012.png", "assets/images/sprites/FX/floorFall_0012.png");
-		type.set ("assets/images/sprites/FX/floorFall_0012.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0013.png", "assets/images/sprites/FX/floorFall_0013.png");
-		type.set ("assets/images/sprites/FX/floorFall_0013.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0014.png", "assets/images/sprites/FX/floorFall_0014.png");
-		type.set ("assets/images/sprites/FX/floorFall_0014.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0015.png", "assets/images/sprites/FX/floorFall_0015.png");
-		type.set ("assets/images/sprites/FX/floorFall_0015.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0016.png", "assets/images/sprites/FX/floorFall_0016.png");
-		type.set ("assets/images/sprites/FX/floorFall_0016.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0017.png", "assets/images/sprites/FX/floorFall_0017.png");
-		type.set ("assets/images/sprites/FX/floorFall_0017.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0018.png", "assets/images/sprites/FX/floorFall_0018.png");
-		type.set ("assets/images/sprites/FX/floorFall_0018.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0019.png", "assets/images/sprites/FX/floorFall_0019.png");
-		type.set ("assets/images/sprites/FX/floorFall_0019.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0020.png", "assets/images/sprites/FX/floorFall_0020.png");
-		type.set ("assets/images/sprites/FX/floorFall_0020.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0021.png", "assets/images/sprites/FX/floorFall_0021.png");
-		type.set ("assets/images/sprites/FX/floorFall_0021.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorFall_0022.png", "assets/images/sprites/FX/floorFall_0022.png");
-		type.set ("assets/images/sprites/FX/floorFall_0022.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/floorFall_2_0001.png", "assets/images/sprites/FX/floorFall_2_0001.png");
 		type.set ("assets/images/sprites/FX/floorFall_2_0001.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/floorFall_2_0002.png", "assets/images/sprites/FX/floorFall_2_0002.png");
@@ -6523,44 +6528,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/sprites/FX/floorJump1_0023.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/floorJump1_0024.png", "assets/images/sprites/FX/floorJump1_0024.png");
 		type.set ("assets/images/sprites/FX/floorJump1_0024.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0001.png", "assets/images/sprites/FX/floorJump2_0001.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0001.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0002.png", "assets/images/sprites/FX/floorJump2_0002.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0002.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0003.png", "assets/images/sprites/FX/floorJump2_0003.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0003.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0004.png", "assets/images/sprites/FX/floorJump2_0004.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0004.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0005.png", "assets/images/sprites/FX/floorJump2_0005.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0005.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0006.png", "assets/images/sprites/FX/floorJump2_0006.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0006.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0007.png", "assets/images/sprites/FX/floorJump2_0007.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0007.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0008.png", "assets/images/sprites/FX/floorJump2_0008.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0008.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0009.png", "assets/images/sprites/FX/floorJump2_0009.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0009.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0010.png", "assets/images/sprites/FX/floorJump2_0010.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0010.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0011.png", "assets/images/sprites/FX/floorJump2_0011.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0011.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0012.png", "assets/images/sprites/FX/floorJump2_0012.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0012.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0013.png", "assets/images/sprites/FX/floorJump2_0013.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0013.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0014.png", "assets/images/sprites/FX/floorJump2_0014.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0014.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0015.png", "assets/images/sprites/FX/floorJump2_0015.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0015.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0016.png", "assets/images/sprites/FX/floorJump2_0016.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0016.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0017.png", "assets/images/sprites/FX/floorJump2_0017.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0017.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0018.png", "assets/images/sprites/FX/floorJump2_0018.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0018.png", AssetType.IMAGE);
-		path.set ("assets/images/sprites/FX/floorJump2_0019.png", "assets/images/sprites/FX/floorJump2_0019.png");
-		type.set ("assets/images/sprites/FX/floorJump2_0019.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/fx_run_0001.png", "assets/images/sprites/FX/fx_run_0001.png");
 		type.set ("assets/images/sprites/FX/fx_run_0001.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/FX/fx_run_0002.png", "assets/images/sprites/FX/fx_run_0002.png");
@@ -7055,18 +7022,118 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/sprites/pUps/explosion_0035.png", AssetType.IMAGE);
 		path.set ("assets/images/sprites/pUps/explosion_0036.png", "assets/images/sprites/pUps/explosion_0036.png");
 		type.set ("assets/images/sprites/pUps/explosion_0036.png", AssetType.IMAGE);
-		path.set ("assets/images/spritesheetTp.png", "assets/images/spritesheetTp.png");
-		type.set ("assets/images/spritesheetTp.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0001.png", "assets/images/sprites/pUps/magnet_main_0001.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0001.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0002.png", "assets/images/sprites/pUps/magnet_main_0002.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0002.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0003.png", "assets/images/sprites/pUps/magnet_main_0003.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0003.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0004.png", "assets/images/sprites/pUps/magnet_main_0004.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0004.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0005.png", "assets/images/sprites/pUps/magnet_main_0005.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0005.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0006.png", "assets/images/sprites/pUps/magnet_main_0006.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0006.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0007.png", "assets/images/sprites/pUps/magnet_main_0007.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0007.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0008.png", "assets/images/sprites/pUps/magnet_main_0008.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0008.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0009.png", "assets/images/sprites/pUps/magnet_main_0009.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0009.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0010.png", "assets/images/sprites/pUps/magnet_main_0010.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0010.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0011.png", "assets/images/sprites/pUps/magnet_main_0011.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0011.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0012.png", "assets/images/sprites/pUps/magnet_main_0012.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0012.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0013.png", "assets/images/sprites/pUps/magnet_main_0013.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0013.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0014.png", "assets/images/sprites/pUps/magnet_main_0014.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0014.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0015.png", "assets/images/sprites/pUps/magnet_main_0015.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0015.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0016.png", "assets/images/sprites/pUps/magnet_main_0016.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0016.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0017.png", "assets/images/sprites/pUps/magnet_main_0017.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0017.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0018.png", "assets/images/sprites/pUps/magnet_main_0018.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0018.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0019.png", "assets/images/sprites/pUps/magnet_main_0019.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0019.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0020.png", "assets/images/sprites/pUps/magnet_main_0020.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0020.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0021.png", "assets/images/sprites/pUps/magnet_main_0021.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0021.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0022.png", "assets/images/sprites/pUps/magnet_main_0022.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0022.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0023.png", "assets/images/sprites/pUps/magnet_main_0023.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0023.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0024.png", "assets/images/sprites/pUps/magnet_main_0024.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0024.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0025.png", "assets/images/sprites/pUps/magnet_main_0025.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0025.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0026.png", "assets/images/sprites/pUps/magnet_main_0026.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0026.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0027.png", "assets/images/sprites/pUps/magnet_main_0027.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0027.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0028.png", "assets/images/sprites/pUps/magnet_main_0028.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0028.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0029.png", "assets/images/sprites/pUps/magnet_main_0029.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0029.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0030.png", "assets/images/sprites/pUps/magnet_main_0030.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0030.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0031.png", "assets/images/sprites/pUps/magnet_main_0031.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0031.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0032.png", "assets/images/sprites/pUps/magnet_main_0032.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0032.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0033.png", "assets/images/sprites/pUps/magnet_main_0033.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0033.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0034.png", "assets/images/sprites/pUps/magnet_main_0034.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0034.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0035.png", "assets/images/sprites/pUps/magnet_main_0035.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0035.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0036.png", "assets/images/sprites/pUps/magnet_main_0036.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0036.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0037.png", "assets/images/sprites/pUps/magnet_main_0037.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0037.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0038.png", "assets/images/sprites/pUps/magnet_main_0038.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0038.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0039.png", "assets/images/sprites/pUps/magnet_main_0039.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0039.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0040.png", "assets/images/sprites/pUps/magnet_main_0040.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0040.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0041.png", "assets/images/sprites/pUps/magnet_main_0041.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0041.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0042.png", "assets/images/sprites/pUps/magnet_main_0042.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0042.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0043.png", "assets/images/sprites/pUps/magnet_main_0043.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0043.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0044.png", "assets/images/sprites/pUps/magnet_main_0044.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0044.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0045.png", "assets/images/sprites/pUps/magnet_main_0045.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0045.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0046.png", "assets/images/sprites/pUps/magnet_main_0046.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0046.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0047.png", "assets/images/sprites/pUps/magnet_main_0047.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0047.png", AssetType.IMAGE);
+		path.set ("assets/images/sprites/pUps/magnet_main_0048.png", "assets/images/sprites/pUps/magnet_main_0048.png");
+		type.set ("assets/images/sprites/pUps/magnet_main_0048.png", AssetType.IMAGE);
+		path.set ("assets/images/spritesheettp.png", "assets/images/spritesheettp.png");
+		type.set ("assets/images/spritesheettp.png", AssetType.IMAGE);
 		path.set ("assets/images/tile01.png", "assets/images/tile01.png");
 		type.set ("assets/images/tile01.png", AssetType.IMAGE);
 		path.set ("assets/images/towerfall_test2_002.png", "assets/images/towerfall_test2_002.png");
 		type.set ("assets/images/towerfall_test2_002.png", AssetType.IMAGE);
 		path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
 		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
+		path.set ("assets/sounds/backloop.ogg", "assets/sounds/backloop.ogg");
+		type.set ("assets/sounds/backloop.ogg", AssetType.MUSIC);
 		path.set ("assets/sounds/clash.mp3", "assets/sounds/clash.mp3");
 		type.set ("assets/sounds/clash.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/clash.ogg", "assets/sounds/clash.ogg");
 		type.set ("assets/sounds/clash.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/electrify.ogg", "assets/sounds/electrify.ogg");
+		type.set ("assets/sounds/electrify.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/explode.ogg", "assets/sounds/explode.ogg");
 		type.set ("assets/sounds/explode.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/explodemini.wav", "assets/sounds/explodemini.wav");
@@ -7075,16 +7142,26 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/sounds/hurt.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/hurt.ogg", "assets/sounds/hurt.ogg");
 		type.set ("assets/sounds/hurt.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/jump.ogg", "assets/sounds/jump.ogg");
+		type.set ("assets/sounds/jump.ogg", AssetType.SOUND);
+		path.set ("assets/sounds/magnet_appear.ogg", "assets/sounds/magnet_appear.ogg");
+		type.set ("assets/sounds/magnet_appear.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/slash.mp3", "assets/sounds/slash.mp3");
 		type.set ("assets/sounds/slash.mp3", AssetType.MUSIC);
 		path.set ("assets/sounds/slash.ogg", "assets/sounds/slash.ogg");
 		type.set ("assets/sounds/slash.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
 		type.set ("assets/sounds/sounds-go-here.txt", AssetType.TEXT);
+		path.set ("assets/sounds/touch_ground.ogg", "assets/sounds/touch_ground.ogg");
+		type.set ("assets/sounds/touch_ground.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/beep.ogg", "assets/sounds/beep.ogg");
 		type.set ("assets/sounds/beep.ogg", AssetType.SOUND);
 		path.set ("assets/sounds/flixel.ogg", "assets/sounds/flixel.ogg");
 		type.set ("assets/sounds/flixel.ogg", AssetType.SOUND);
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		path.set ("clash", "assets/sounds/clash.ogg");
 		type.set ("clash", AssetType.SOUND);
 		path.set ("slash", "assets/sounds/slash.ogg");
@@ -7093,6 +7170,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("hurt", AssetType.SOUND);
 		path.set ("explode", "assets/sounds/explode.ogg");
 		type.set ("explode", AssetType.SOUND);
+		path.set ("electrify", "assets/sounds/electrify.ogg");
+		type.set ("electrify", AssetType.SOUND);
+		path.set ("background", "assets/sounds/backloop.ogg");
+		type.set ("background", AssetType.SOUND);
+		path.set ("magnet_appear", "assets/sounds/magnet_appear.ogg");
+		type.set ("magnet_appear", AssetType.SOUND);
+		path.set ("touch_ground", "assets/sounds/touch_ground.ogg");
+		type.set ("touch_ground", AssetType.SOUND);
+		path.set ("jump", "assets/sounds/jump.ogg");
+		type.set ("jump", AssetType.SOUND);
 		
 		
 		#elseif html5
@@ -7107,7 +7194,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/data/data-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
-		id = "assets/data/mapCSV_Group1_Map1.csv";
+		id = "assets/data/mapcsv_group1_map1.csv";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "assets/data/megaversion.dam";
@@ -7131,19 +7218,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/data/textureWithFolders.tps";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/data/textureWithFoldersAndroid.tps";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
 		id = "assets/images/1.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/2.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/charLight.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/cityCartoon_01.swf";
-		path.set (id, id);
-		type.set (id, AssetType.TEXT);
-		id = "assets/images/conceptLab.png";
+		id = "assets/images/char_light.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/images-go-here.txt";
@@ -7158,7 +7242,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/images/piedritas.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sceneLightBlue.png";
+		id = "assets/images/scene_light_blue.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png";
@@ -7303,39 +7387,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/chief/AirDeathExport0046.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0001.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0002.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0003.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0004.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0005.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0006.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0007.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0008.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0009.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0010.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/chief/Chief_CoverNoBallExport0011.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/chief/IdleExport0001.png";
@@ -7761,72 +7812,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/images/sprites/FX/DashTrailExport.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0001.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0002.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0003.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0004.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0005.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0006.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0007.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0008.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0009.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0010.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0011.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0012.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0013.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0014.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0015.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0016.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0017.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0018.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0019.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0020.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0021.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorFall_0022.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/FX/floorFall_2_0001.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
@@ -7969,63 +7954,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/FX/floorJump1_0024.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0001.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0002.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0003.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0004.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0005.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0006.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0007.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0008.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0009.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0010.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0011.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0012.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0013.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0014.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0015.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0016.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0017.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0018.png";
-		path.set (id, id);
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sprites/FX/floorJump2_0019.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/sprites/FX/fx_run_0001.png";
@@ -8769,7 +8697,151 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/images/sprites/pUps/explosion_0036.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/spritesheetTp.png";
+		id = "assets/images/sprites/pUps/magnet_main_0001.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0002.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0003.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0004.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0005.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0006.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0007.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0008.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0009.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0010.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0011.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0012.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0013.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0014.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0015.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0016.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0017.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0018.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0019.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0020.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0021.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0022.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0023.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0024.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0025.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0026.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0027.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0028.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0029.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0030.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0031.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0032.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0033.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0034.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0035.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0036.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0037.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0038.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0039.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0040.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0041.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0042.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0043.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0044.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0045.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0046.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0047.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/sprites/pUps/magnet_main_0048.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/images/spritesheettp.png";
 		path.set (id, id);
 		type.set (id, AssetType.IMAGE);
 		id = "assets/images/tile01.png";
@@ -8781,10 +8853,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/music/music-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/backloop.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/clash.mp3";
 		path.set (id, id);
 		type.set (id, AssetType.MUSIC);
 		id = "assets/sounds/clash.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/electrify.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/explode.ogg";
@@ -8799,6 +8877,12 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/sounds/hurt.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/jump.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
+		id = "assets/sounds/magnet_appear.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/slash.mp3";
 		path.set (id, id);
 		type.set (id, AssetType.MUSIC);
@@ -8808,12 +8892,23 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/sounds/sounds-go-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/sounds/touch_ground.ogg";
+		path.set (id, id);
+		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/beep.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
 		id = "assets/sounds/flixel.ogg";
 		path.set (id, id);
 		type.set (id, AssetType.SOUND);
+		id = "assets/fonts/nokiafc22.ttf";
+		className.set (id, __ASSET__assets_fonts_nokiafc22_ttf);
+		
+		type.set (id, AssetType.FONT);
+		id = "assets/fonts/arial.ttf";
+		className.set (id, __ASSET__assets_fonts_arial_ttf);
+		
+		type.set (id, AssetType.FONT);
 		id = "clash";
 		path.set (id, "assets/sounds/clash.ogg");
 		type.set (id, AssetType.SOUND);
@@ -8825,6 +8920,21 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set (id, AssetType.SOUND);
 		id = "explode";
 		path.set (id, "assets/sounds/explode.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "electrify";
+		path.set (id, "assets/sounds/electrify.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "background";
+		path.set (id, "assets/sounds/backloop.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "magnet_appear";
+		path.set (id, "assets/sounds/magnet_appear.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "touch_ground";
+		path.set (id, "assets/sounds/touch_ground.ogg");
+		type.set (id, AssetType.SOUND);
+		id = "jump";
+		path.set (id, "assets/sounds/jump.ogg");
 		type.set (id, AssetType.SOUND);
 		
 		
@@ -9411,6 +9521,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_nokiafc22_ttf);
+		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_arial_ttf);
+		
+		
+		
+		
+		
 		
 		
 		
@@ -9988,6 +10105,17 @@ class DefaultAssetLibrary extends AssetLibrary {
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		
+		className.set ("assets/fonts/nokiafc22.ttf", __ASSET__assets_fonts_nokiafc22_ttf);
+		type.set ("assets/fonts/nokiafc22.ttf", AssetType.FONT);
+		
+		className.set ("assets/fonts/arial.ttf", __ASSET__assets_fonts_arial_ttf);
+		type.set ("assets/fonts/arial.ttf", AssetType.FONT);
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -11170,6 +11298,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep @:bind #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends null { }
+@:keep @:bind #if display private #end class __ASSET__assets_fonts_arial_ttf extends null { }
+
+
+
+
+
 
 
 
@@ -11750,6 +11885,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends lime.text.Font { public function new () { super (); name = "Nokia Cellphone FC Small"; } } 
+@:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends lime.text.Font { public function new () { super (); name = "Arial"; } } 
+
+
+
+
+
 
 
 
@@ -11763,12 +11905,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if (windows || mac || linux)
 
 
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/nokiafc22.ttf") #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends lime.text.Font {}
+@:font("C:/Users/Esti/android/flixel/3,3,10/assets/fonts/arial.ttf") #if display private #end class __ASSET__assets_fonts_arial_ttf extends lime.text.Font {}
 
 
 
 #end
 
 #if openfl
+@:keep #if display private #end class __ASSET__OPENFL__assets_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { __fontPath = "assets/fonts/nokiafc22.ttf"; name = "Nokia Cellphone FC Small"; super (); }}
+@:keep #if display private #end class __ASSET__OPENFL__assets_fonts_arial_ttf extends openfl.text.Font { public function new () { __fontPath = "assets/fonts/arial.ttf"; name = "Arial"; super (); }}
 
 #end
 

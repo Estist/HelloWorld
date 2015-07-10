@@ -46,7 +46,7 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
-		urls.push ("assets/data/mapCSV_Group1_Map1.csv");
+		urls.push ("assets/data/mapcsv_group1_map1.csv");
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
@@ -78,6 +78,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/data/textureWithFoldersAndroid.tps");
+		types.push (lime.Assets.AssetType.TEXT);
+		
+		
 		urls.push ("assets/images/1.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
@@ -86,15 +90,7 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/images/charLight.png");
-		types.push (lime.Assets.AssetType.IMAGE);
-		
-		
-		urls.push ("assets/images/cityCartoon_01.swf");
-		types.push (lime.Assets.AssetType.TEXT);
-		
-		
-		urls.push ("assets/images/conceptLab.png");
+		urls.push ("assets/images/char_light.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -114,7 +110,7 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/images/sceneLightBlue.png");
+		urls.push ("assets/images/scene_light_blue.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		

@@ -23,6 +23,7 @@ import haxe.remoting.FlashJsConnection;
 import openfl.display.BlendMode;
 import utils.AttackBox;
 import flixel.util.FlxVelocity;
+import flixel.util.FlxColor;
 
 /**
  * ...
@@ -230,6 +231,8 @@ class Player extends FlxNestedSprite
 		this.walljumpBox.makeGraphic(90, 90);
 		//this.add(walljumpBox);
 		
+		//this.makeGraphic(50, 50, FlxColor.WHITE);
+		
 		//this.weapon = new FlxWeapon("pistol", this);	
 		//this.weapon.makePixelBullet(99, 40, 20, 0xf9999);
 		//this.weapon.setBulletDirection(FlxWeapon.BULLET_NORTH_EAST,100);
@@ -285,7 +288,7 @@ class Player extends FlxNestedSprite
 			this.animation.addByPrefix("wallSlide", "wallJumpOutExport0001.png", 30, false);
 			this.animation.addByPrefix("wallJump", "wallJumpOutExport", 40, false);
 		}
-		
+
 		//this.animation.addByPrefix("dash", "DashPositionEXPORT", 30, false);
 		
 		FlxG.bitmap.dumpCache();

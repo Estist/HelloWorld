@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>3.6.0</string>
         <key>fileName</key>
-        <string>C:/Users/Esti/HelloWorld/assets/data/textureWithFolders.tps</string>
+        <string>C:/Users/Esti/HelloWorld/assets/data/textureWithFoldersAndroid.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -86,9 +86,9 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>8192</int>
+            <int>2048</int>
             <key>height</key>
-            <int>8192</int>
+            <int>2048</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
@@ -98,11 +98,11 @@
             <int>-1</int>
         </QSize>
         <key>reduceBorderArtifacts</key>
-        <false/>
+        <true/>
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
             <key>algorithm</key>
-            <enum type="AlgorithmSettings::AlgorithmId">Basic</enum>
+            <enum type="AlgorithmSettings::AlgorithmId">MaxRects</enum>
             <key>freeSizeMode</key>
             <enum type="AlgorithmSettings::AlgorithmFreeSizeMode">Best</enum>
             <key>sizeConstraints</key>
@@ -183,9 +183,9 @@
             <key>extrude</key>
             <uint>0</uint>
             <key>trimThreshold</key>
-            <uint>1</uint>
+            <uint>2</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">None</enum>
+            <enum type="SpriteSettings::TrimMode">Trim</enum>
             <key>heuristicMask</key>
             <false/>
             <key>pivotPoint</key>

@@ -35,16 +35,16 @@ class Level1 extends FlxGroup
 		this.levelSprt.solid = false;
 		//this.levelSprt.blend = BlendMode.MULTIPLY;
 		
-		this.overLightsSprt = new FlxSprite(0 , 0, "assets/images/charLight.png");
+		this.overLightsSprt = new FlxSprite(0 , 0, "assets/images/char_light.png");
 		this.overLightsSprt.solid = false;
 		this.overLightsSprt.blend =  BlendMode.HARDLIGHT;
 		
-		this.overPlatFormsLight = new FlxSprite(0 , 0, "assets/images/sceneLightBlue.png");
+		this.overPlatFormsLight = new FlxSprite(0 , 0, "assets/images/scene_light_blue.png");
 		this.overPlatFormsLight.solid = false;
 		//this.overPlatFormsLight.blend =  BlendMode.HARDLIGHT;
 		
 		this.map = new FlxTilemap();
-		this.map.loadMap(Assets.getText("assets/data/mapCSV_Group1_Map1.csv"), "assets/images/tile01.png", 45, 45, 0, 0, 1, 1);
+		this.map.loadMap(Assets.getText("assets/data/mapcsv_group1_map1.csv"), "assets/images/tile01.png", 45, 45, 0, 0, 1, 1);
 		this.map.visible = false;
 
 		this.width = map.width;

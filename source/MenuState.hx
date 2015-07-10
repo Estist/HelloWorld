@@ -72,7 +72,7 @@ class MenuState extends FlxState
 	 
 	override public function create():Void
 	{
-		Register.texturePackerData = new TexturePackerData("assets/data/spritesData.json", "assets/images/spritesheetTp.png");
+		Register.texturePackerData = new TexturePackerData("assets/data/spritesData.json", "assets/images/spritesheettp.png");
 		
 		Register.playersGroup = new FlxGroup();
 		Register.logicGroup = new FlxGroup();
@@ -107,22 +107,27 @@ class MenuState extends FlxState
 		FlxG.cameras.bgColor = 0xff144954;		
 		add(level);
 			
-		this.player = new Player(cast(spawnPoints[0].x,Int), cast(spawnPoints[0].y, Int), this,0);
-		//this.player.gamepadIntIdDebug = 0;
-
+		/*#if android		
+		this.player = new Player(600, 300, this, 0);
+		this.player2 = new Player(800, 100, this,1);
+		#else*/
+		this.player = new Player(cast(spawnPoints[0].x, Int), cast(spawnPoints[0].y, Int), this, 0);
 		this.player2 = new Player(cast(spawnPoints[1].x,Int), cast(spawnPoints[1].y, Int), this,1);
 		
-		this.player3 = new Player(cast(spawnPoints[2].x,Int), cast(spawnPoints[2].y, Int), this,2);
+		//this.player = new Player(300, 300, this, 0);
+		//this.player2 = new Player(300, 300, this,1);
 		
-		this.player4 = new Player(cast(spawnPoints[3].x,Int), cast(spawnPoints[3].y, Int), this,3);
+		this.player3 = new Player(cast(spawnPoints[2].x,Int), cast(spawnPoints[2].y, Int), this,2);
+		this.player4 = new Player(cast(spawnPoints[3].x, Int), cast(spawnPoints[3].y, Int), this, 3);
+		//#end
 		//this.player2.gamepadIntIdDebug = 1;
 		
-		//var bombDebug:Bomb = new Bomb();
-		//bombDebug.init(500, 300);
-		//Register.objectsGroup.add(bombDebug);
+		/*var bombDebug:Bomb = new Bomb();
+		bombDebug.init(500, 300);
+		Register.objectsGroup.add(bombDebug);*/
 		
 		var crateDebug:Crate = new Crate();
-		crateDebug.init(500, 300);
+		crateDebug.init(500, 500);
 		Register.objectsGroup.add(crateDebug);
 		
 		/*var magnet:Magnet = new Magnet();
@@ -159,8 +164,12 @@ class MenuState extends FlxState
 		FlxG.worldBounds.set(0, 0, level.width, level.height);
 			
 		//	Don't let the camera wander off the edges of the map
+		
+		//#if android 
+		//FlxG.camera.setBounds(-200, -150, level.width + 400 , level.height + 100);
+		//#else
 		FlxG.camera.setBounds(-200, -150, level.width + 400 , level.height + 100);
-			
+		//#end	
 		//FlxG.log.add(level.width + "widhtlevel");
 		
 		//	The camera will follow the player

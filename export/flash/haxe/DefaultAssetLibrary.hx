@@ -55,8 +55,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/big version.dam.bak", AssetType.TEXT);
 		className.set ("assets/data/data-goes-here.txt", __ASSET__assets_data_data_goes_here_txt);
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
-		className.set ("assets/data/mapCSV_Group1_Map1.csv", __ASSET__assets_data_mapcsv_group1_map1_csv);
-		type.set ("assets/data/mapCSV_Group1_Map1.csv", AssetType.TEXT);
+		className.set ("assets/data/mapcsv_group1_map1.csv", __ASSET__assets_data_mapcsv_group1_map1_csv);
+		type.set ("assets/data/mapcsv_group1_map1.csv", AssetType.TEXT);
 		className.set ("assets/data/megaversion.dam", __ASSET__assets_data_megaversion_dam);
 		type.set ("assets/data/megaversion.dam", AssetType.TEXT);
 		className.set ("assets/data/megaversion.dam.bak", __ASSET__assets_data_megaversion_dam_bak);
@@ -71,16 +71,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/textureNew.tps", AssetType.TEXT);
 		className.set ("assets/data/textureWithFolders.tps", __ASSET__assets_data_texturewithfolders_tps);
 		type.set ("assets/data/textureWithFolders.tps", AssetType.TEXT);
+		className.set ("assets/data/textureWithFoldersAndroid.tps", __ASSET__assets_data_texturewithfoldersandroid_tps);
+		type.set ("assets/data/textureWithFoldersAndroid.tps", AssetType.TEXT);
 		className.set ("assets/images/1.png", __ASSET__assets_images_1_png);
 		type.set ("assets/images/1.png", AssetType.IMAGE);
 		className.set ("assets/images/2.png", __ASSET__assets_images_2_png);
 		type.set ("assets/images/2.png", AssetType.IMAGE);
-		className.set ("assets/images/charLight.png", __ASSET__assets_images_charlight_png);
-		type.set ("assets/images/charLight.png", AssetType.IMAGE);
-		className.set ("assets/images/cityCartoon_01.swf", __ASSET__assets_images_citycartoon_01_swf);
-		type.set ("assets/images/cityCartoon_01.swf", AssetType.TEXT);
-		className.set ("assets/images/conceptLab.png", __ASSET__assets_images_conceptlab_png);
-		type.set ("assets/images/conceptLab.png", AssetType.IMAGE);
+		className.set ("assets/images/char_light.png", __ASSET__assets_images_char_light_png);
+		type.set ("assets/images/char_light.png", AssetType.IMAGE);
 		className.set ("assets/images/images-go-here.txt", __ASSET__assets_images_images_go_here_txt);
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
 		className.set ("assets/images/ligth.png", __ASSET__assets_images_ligth_png);
@@ -89,8 +87,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/images/marco.png", AssetType.IMAGE);
 		className.set ("assets/images/piedritas.png", __ASSET__assets_images_piedritas_png);
 		type.set ("assets/images/piedritas.png", AssetType.IMAGE);
-		className.set ("assets/images/sceneLightBlue.png", __ASSET__assets_images_scenelightblue_png);
-		type.set ("assets/images/sceneLightBlue.png", AssetType.IMAGE);
+		className.set ("assets/images/scene_light_blue.png", __ASSET__assets_images_scene_light_blue_png);
+		type.set ("assets/images/scene_light_blue.png", AssetType.IMAGE);
 		className.set ("assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png", __ASSET__assets_images_sprites_chief__sword_floorsidecutexport0014removed_png);
 		type.set ("assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png", AssetType.IMAGE);
 		className.set ("assets/images/sprites/chief/-sword_floorSideCutExport0015REMOVED.png", __ASSET__assets_images_sprites_chief__sword_floorsidecutexport0015removed_png);
@@ -1340,7 +1338,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
-		id = "assets/data/mapCSV_Group1_Map1.csv";
+		id = "assets/data/mapcsv_group1_map1.csv";
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
@@ -1372,6 +1370,10 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
+		id = "assets/data/textureWithFoldersAndroid.tps";
+		path.set (id, id);
+		
+		type.set (id, AssetType.TEXT);
 		id = "assets/images/1.png";
 		path.set (id, id);
 		
@@ -1380,15 +1382,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/charLight.png";
-		path.set (id, id);
-		
-		type.set (id, AssetType.IMAGE);
-		id = "assets/images/cityCartoon_01.swf";
-		path.set (id, id);
-		
-		type.set (id, AssetType.TEXT);
-		id = "assets/images/conceptLab.png";
+		id = "assets/images/char_light.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
@@ -1408,7 +1402,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/sceneLightBlue.png";
+		id = "assets/images/scene_light_blue.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
@@ -4514,7 +4508,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
-		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_nokiafc22_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__assets_fonts_arial_ttf);
 		
@@ -4542,8 +4535,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/data/data-goes-here.txt", __ASSET__assets_data_data_goes_here_txt);
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
 		
-		className.set ("assets/data/mapCSV_Group1_Map1.csv", __ASSET__assets_data_mapcsv_group1_map1_csv);
-		type.set ("assets/data/mapCSV_Group1_Map1.csv", AssetType.TEXT);
+		className.set ("assets/data/mapcsv_group1_map1.csv", __ASSET__assets_data_mapcsv_group1_map1_csv);
+		type.set ("assets/data/mapcsv_group1_map1.csv", AssetType.TEXT);
 		
 		className.set ("assets/data/megaversion.dam", __ASSET__assets_data_megaversion_dam);
 		type.set ("assets/data/megaversion.dam", AssetType.TEXT);
@@ -4566,20 +4559,17 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/data/textureWithFolders.tps", __ASSET__assets_data_texturewithfolders_tps);
 		type.set ("assets/data/textureWithFolders.tps", AssetType.TEXT);
 		
+		className.set ("assets/data/textureWithFoldersAndroid.tps", __ASSET__assets_data_texturewithfoldersandroid_tps);
+		type.set ("assets/data/textureWithFoldersAndroid.tps", AssetType.TEXT);
+		
 		className.set ("assets/images/1.png", __ASSET__assets_images_1_png);
 		type.set ("assets/images/1.png", AssetType.IMAGE);
 		
 		className.set ("assets/images/2.png", __ASSET__assets_images_2_png);
 		type.set ("assets/images/2.png", AssetType.IMAGE);
 		
-		className.set ("assets/images/charLight.png", __ASSET__assets_images_charlight_png);
-		type.set ("assets/images/charLight.png", AssetType.IMAGE);
-		
-		className.set ("assets/images/cityCartoon_01.swf", __ASSET__assets_images_citycartoon_01_swf);
-		type.set ("assets/images/cityCartoon_01.swf", AssetType.TEXT);
-		
-		className.set ("assets/images/conceptLab.png", __ASSET__assets_images_conceptlab_png);
-		type.set ("assets/images/conceptLab.png", AssetType.IMAGE);
+		className.set ("assets/images/char_light.png", __ASSET__assets_images_char_light_png);
+		type.set ("assets/images/char_light.png", AssetType.IMAGE);
 		
 		className.set ("assets/images/images-go-here.txt", __ASSET__assets_images_images_go_here_txt);
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
@@ -4593,8 +4583,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/images/piedritas.png", __ASSET__assets_images_piedritas_png);
 		type.set ("assets/images/piedritas.png", AssetType.IMAGE);
 		
-		className.set ("assets/images/sceneLightBlue.png", __ASSET__assets_images_scenelightblue_png);
-		type.set ("assets/images/sceneLightBlue.png", AssetType.IMAGE);
+		className.set ("assets/images/scene_light_blue.png", __ASSET__assets_images_scene_light_blue_png);
+		type.set ("assets/images/scene_light_blue.png", AssetType.IMAGE);
 		
 		className.set ("assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png", __ASSET__assets_images_sprites_chief__sword_floorsidecutexport0014removed_png);
 		type.set ("assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png", AssetType.IMAGE);
@@ -7133,16 +7123,15 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_data_texture_tps extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_texturenew_tps extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_texturewithfolders_tps extends flash.utils.ByteArray { }
+@:keep @:bind #if display private #end class __ASSET__assets_data_texturewithfoldersandroid_tps extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_images_1_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_2_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_images_charlight_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_images_citycartoon_01_swf extends flash.utils.ByteArray { }
-@:keep @:bind #if display private #end class __ASSET__assets_images_conceptlab_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_char_light_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_images_go_here_txt extends flash.utils.ByteArray { }
 @:keep @:bind #if display private #end class __ASSET__assets_images_ligth_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_marco_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_piedritas_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_images_scenelightblue_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_scene_light_blue_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_sprites_chief__sword_floorsidecutexport0014removed_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_sprites_chief__sword_floorsidecutexport0015removed_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_sprites_chief_airdeathexport0001_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
@@ -8388,7 +8377,6 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
-
 @:keep #if display private #end class __ASSET__assets_fonts_nokiafc22_ttf extends lime.text.Font { public function new () { super (); name = "Nokia Cellphone FC Small"; } } 
 @:keep #if display private #end class __ASSET__assets_fonts_arial_ttf extends lime.text.Font { public function new () { super (); name = "Arial"; } } 
 
@@ -8412,7 +8400,7 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/data/big version.dam") #if display private #end class __ASSET__assets_data_big_version_dam extends lime.utils.ByteArray {}
 @:file("assets/data/big version.dam.bak") #if display private #end class __ASSET__assets_data_big_version_dam_bak extends lime.utils.ByteArray {}
 @:file("assets/data/data-goes-here.txt") #if display private #end class __ASSET__assets_data_data_goes_here_txt extends lime.utils.ByteArray {}
-@:file("assets/data/mapCSV_Group1_Map1.csv") #if display private #end class __ASSET__assets_data_mapcsv_group1_map1_csv extends lime.utils.ByteArray {}
+@:file("assets/data/mapcsv_group1_map1.csv") #if display private #end class __ASSET__assets_data_mapcsv_group1_map1_csv extends lime.utils.ByteArray {}
 @:file("assets/data/megaversion.dam") #if display private #end class __ASSET__assets_data_megaversion_dam extends lime.utils.ByteArray {}
 @:file("assets/data/megaversion.dam.bak") #if display private #end class __ASSET__assets_data_megaversion_dam_bak extends lime.utils.ByteArray {}
 @:file("assets/data/megaversion3.dam") #if display private #end class __ASSET__assets_data_megaversion3_dam extends lime.utils.ByteArray {}
@@ -8420,16 +8408,15 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/data/texture.tps") #if display private #end class __ASSET__assets_data_texture_tps extends lime.utils.ByteArray {}
 @:file("assets/data/textureNew.tps") #if display private #end class __ASSET__assets_data_texturenew_tps extends lime.utils.ByteArray {}
 @:file("assets/data/textureWithFolders.tps") #if display private #end class __ASSET__assets_data_texturewithfolders_tps extends lime.utils.ByteArray {}
+@:file("assets/data/textureWithFoldersAndroid.tps") #if display private #end class __ASSET__assets_data_texturewithfoldersandroid_tps extends lime.utils.ByteArray {}
 @:image("assets/images/1.png") #if display private #end class __ASSET__assets_images_1_png extends lime.graphics.Image {}
 @:image("assets/images/2.png") #if display private #end class __ASSET__assets_images_2_png extends lime.graphics.Image {}
-@:image("assets/images/charLight.png") #if display private #end class __ASSET__assets_images_charlight_png extends lime.graphics.Image {}
-@:file("assets/images/cityCartoon_01.swf") #if display private #end class __ASSET__assets_images_citycartoon_01_swf extends lime.utils.ByteArray {}
-@:image("assets/images/conceptLab.png") #if display private #end class __ASSET__assets_images_conceptlab_png extends lime.graphics.Image {}
+@:image("assets/images/char_light.png") #if display private #end class __ASSET__assets_images_char_light_png extends lime.graphics.Image {}
 @:file("assets/images/images-go-here.txt") #if display private #end class __ASSET__assets_images_images_go_here_txt extends lime.utils.ByteArray {}
 @:image("assets/images/ligth.png") #if display private #end class __ASSET__assets_images_ligth_png extends lime.graphics.Image {}
 @:image("assets/images/marco.png") #if display private #end class __ASSET__assets_images_marco_png extends lime.graphics.Image {}
 @:image("assets/images/piedritas.png") #if display private #end class __ASSET__assets_images_piedritas_png extends lime.graphics.Image {}
-@:image("assets/images/sceneLightBlue.png") #if display private #end class __ASSET__assets_images_scenelightblue_png extends lime.graphics.Image {}
+@:image("assets/images/scene_light_blue.png") #if display private #end class __ASSET__assets_images_scene_light_blue_png extends lime.graphics.Image {}
 @:image("assets/images/sprites/chief/-sword_floorSideCutExport0014REMOVED.png") #if display private #end class __ASSET__assets_images_sprites_chief__sword_floorsidecutexport0014removed_png extends lime.graphics.Image {}
 @:image("assets/images/sprites/chief/-sword_floorSideCutExport0015REMOVED.png") #if display private #end class __ASSET__assets_images_sprites_chief__sword_floorsidecutexport0015removed_png extends lime.graphics.Image {}
 @:image("assets/images/sprites/chief/AirDeathExport0001.png") #if display private #end class __ASSET__assets_images_sprites_chief_airdeathexport0001_png extends lime.graphics.Image {}

@@ -15,7 +15,7 @@ package fx;
 		{		
 			super();
 			
-			var t:TexturePackerData = new TexturePackerData("assets/data/spritesData.json", "assets/images/spritesheetTp.png");
+			var t:TexturePackerData = Register.texturePackerData;
 			this.loadGraphicFromTexture(t);
 			
 			this.animation.addByPrefix("dashEffect", "dashCloudEXPORT", 30, false);
